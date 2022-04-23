@@ -3,7 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/RecyclerFragment">
+
+    <fragment
+        android:id="@+id/RecyclerFragment"
+        android:name="com.example.brochures.recycler.BrochuresRecyclerFragment"
+        android:label="@string/recycler_fragment"
+        tools:layout="@layout/recycler_fragment">
+    </fragment>
 
     <fragment
         android:id="@+id/FirstFragment"
