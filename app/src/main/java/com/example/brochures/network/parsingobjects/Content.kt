@@ -1,5 +1,6 @@
 package com.example.brochures.network.parsingobjects
 
+import com.example.brochures.network.SingleToArray
 import com.squareup.moshi.Json
 
 class Content {
@@ -19,5 +20,6 @@ class Content {
     var externalTracking: ExternalTracking? = null
 
     @Json(name = "content")
-    val content1: List<Content__1>? = null
+    //todo @SingleToArray
+    val innerContentWrapper: InnerContentWrapper? = null //List<InnerContent>? = null //todo  List<Content__1>? = null
 }

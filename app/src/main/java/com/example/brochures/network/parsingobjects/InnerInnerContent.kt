@@ -4,7 +4,7 @@ import com.squareup.moshi.Json
 import com.example.brochures.network.parsingobjects.LinkOut
 import com.example.brochures.network.parsingobjects.Thumbnail
 
-class Content__2 {
+class InnerInnerContent {
     @Json(name = "id")
     var id: String? = null
 

@@ -22,9 +22,8 @@ private val moshi = Moshi.Builder()
 
 
 val retrofit = Retrofit.Builder()
-    .addConverterFactory(MoshiConverterFactory.create(moshi)) //todo .addConverterFactory(ScalarsConverterFactory.create())
+    .addConverterFactory(MoshiConverterFactory.create(moshi))
     .baseUrl(BASE_URL)
-    //todo .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
     .build()
 
 interface BrochuresApiService {

@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import com.example.brochures.R
@@ -36,7 +37,10 @@ class BrochuresRecyclerFragment : Fragment() {
     }
 
     private fun initObservers() { //todo
-        val brochuresList = model.getBrochures().value
+        model.getBrochures().observe(viewLifecycleOwner) { onBrochuresUpdated(it)}
+    }
+
+    private fun onBrochuresUpdated(brochuresList: List<BrochureItem>) {
         brochuresRecyclerView.adapter = brochuresList?.let(::BrochuresAdapter)
     }
 

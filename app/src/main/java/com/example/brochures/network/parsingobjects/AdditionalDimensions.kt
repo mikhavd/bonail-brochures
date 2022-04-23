@@ -2,7 +2,7 @@ package com.example.brochures.network.parsingobjects
 
 import com.squareup.moshi.Json
 
-class Dimensions__1 {
+class AdditionalDimensions {
     @Json(name = "height")
     var height: Int? = null
 

@@ -7,7 +7,8 @@ import com.squareup.moshi.Json
  * TODO
  * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
  */
-class Content__1_wrapper {
+class InnerContentWrapper {
+
     @SingleToArray
-    val content1: List<Content__1>? = null
+    val innerContent: List<InnerContent>? = null
 }

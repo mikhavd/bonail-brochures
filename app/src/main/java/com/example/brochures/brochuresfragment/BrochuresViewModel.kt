@@ -1,6 +1,5 @@
 package com.example.brochures.brochuresfragment
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -15,26 +14,59 @@ import java.lang.Exception
  */
 class BrochuresViewModel : ViewModel() {
 
-    private val brochures: MutableLiveData<List<BrochureItem>> by lazy(::loadBrochures)
+    //todo private val brochures: MutableLiveData<List<BrochureItem>> by lazy(::loadBrochures)
+    // The internal MutableLiveData that stores the status of the most recent request
+    private val _status = MutableLiveData<List<BrochureItem>>()
 
-    fun getBrochures(): LiveData<List<BrochureItem>> {
-        return brochures
+    val status: MutableLiveData<List<BrochureItem>> = _status
+
+    init {
+        loadBrochures()
     }
 
-    private fun loadBrochures(): MutableLiveData<List<BrochureItem>> {
-        return MutableLiveData<List<BrochureItem>>().apply {
-            viewModelScope.launch {
-                var answer: String? = null
-                try {
-                    answer = BrochuresApi.retrofitService.getResponse().links?.self?.href ?: "moshi didn't convert"
-                } catch (e: Exception) {
-                    answer = "Failure: ${e.message}"
-                } finally {
-                    Log.d("Brochures", "BrochuresViewModel.loadBrochures(): answer = $answer")
-                    value = listOf(BrochureItem(answer ?: "", null, retailerName = "", ""))
+    fun getBrochures(): LiveData<List<BrochureItem>> = status
+
+    private fun loadBrochures() {
+        viewModelScope.launch {
+            _status.value = getBrochuresList() //todo testList()
+        }
+    }
+
+    private suspend fun testList() = listOf(
+        BrochureItem(getTestAnswer() ?: "", null, retailerName = ""),
+        BrochureItem("name", image = null, "retailer_name")
+    )
+
+    private suspend fun getBrochuresList(): List<BrochureItem> {
+        val brochureList = arrayListOf<BrochureItem>()
+        try {
+            BrochuresApi.retrofitService.getResponse().embedded?.contents?.filter { content ->
+                BROCHURES_CONTENT_TYPE.contains(content.contentType?.lowercase())
+            }?.mapNotNull { content ->
+                content.innerContentWrapper?.innerContent?.forEach { innerContent ->
+                    innerContent.publisher?.name?.let { publisherName ->
+                        brochureList += BrochureItem(publisherName, null, publisherName)
+                    }
                 }
             }
-
+        } catch (e: Exception) {
+            "Failure: ${e.message}"
+        } finally {
         }
+        return brochureList.takeIf { it.isNotEmpty() } ?: testList()
+    }
+
+    private suspend fun getTestAnswer(): String? {
+        val testAnswer: String? = try {
+            BrochuresApi.retrofitService.getResponse().links?.self?.href ?: "moshi didn't convert"
+        } catch (e: Exception) {
+            "Failure: ${e.message}"
+        } finally {
+        }
+        return testAnswer
+    }
+
+    companion object {
+        private val BROCHURES_CONTENT_TYPE: Set<String> = setOf("brochure".lowercase(), "brochurePremium".lowercase())
     }
 }
