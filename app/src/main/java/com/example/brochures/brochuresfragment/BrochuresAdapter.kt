@@ -17,7 +17,7 @@ class BrochuresAdapter(private val items: List<BrochureItem>) : RecyclerView.Ada
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(
-            R.layout.brochure_item,
+            R.layout.brochre_item_card,
             parent,
             false)
         return BrochureViewHolder(view)
@@ -37,12 +37,12 @@ class BrochuresAdapter(private val items: List<BrochureItem>) : RecyclerView.Ada
      */
     private class BrochureViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        private var imageView: ImageView = itemView.findViewById(R.id.icon_view)
+        //todo private var imageView: ImageView = itemView.findViewById(R.id.icon_view)
         private var name: TextView = itemView.findViewById(R.id.brochure_name)
         private val retailerName: TextView = itemView.findViewById(R.id.retailer_name)
 
         fun bindView(brochureItem: BrochureItem) {
-            brochureItem.image?.let { imageView.setImageDrawable(it) }
+            //todo brochureItem.image?.let { imageView.setImageDrawable(it) }
             name.text = brochureItem.name
             retailerName.text = brochureItem.retailerName
         }
