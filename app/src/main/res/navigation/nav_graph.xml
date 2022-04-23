@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/RecyclerFragment"
-        android:name="com.example.brochures.recycler.BrochuresRecyclerFragment"
+        android:name="com.example.brochures.brochuresfragment.BrochuresRecyclerFragment"
         android:label="@string/recycler_fragment"
-        tools:layout="@layout/recycler_fragment">
+        tools:layout="@layout/brochures_recycler_fragment">
     </fragment>
 
     <fragment

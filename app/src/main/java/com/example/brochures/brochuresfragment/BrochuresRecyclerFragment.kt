@@ -1,13 +1,13 @@
-package com.example.brochures.recycler
+package com.example.brochures.brochuresfragment
 
+import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import com.example.brochures.R
 
@@ -17,6 +17,7 @@ import com.example.brochures.R
  */
 class BrochuresRecyclerFragment : Fragment() {
 
+    private val model: BrochuresViewModel by viewModels()
     private lateinit var brochuresRecyclerView: RecyclerView
 
     override fun onCreateView(
@@ -24,7 +25,7 @@ class BrochuresRecyclerFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
-        val view = inflater.inflate(R.layout.recycler_fragment, container, false)
+        val view = inflater.inflate(R.layout.brochures_recycler_fragment, container, false)
         initView(view)
         return view
     }
@@ -35,8 +36,8 @@ class BrochuresRecyclerFragment : Fragment() {
     }
 
     private fun initObservers() { //todo
-        val brochuresList = arrayListOf(BrochureItem("name", null, "retailer_name"))
-        brochuresRecyclerView.adapter = BrochuresAdapter(brochuresList)
+        val brochuresList = model.getBrochures().value
+        brochuresRecyclerView.adapter = brochuresList?.let(::BrochuresAdapter)
     }
 
     private fun initView(view: View) {

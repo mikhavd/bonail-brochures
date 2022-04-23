@@ -1,4 +1,4 @@
-package com.example.brochures.recycler
+package com.example.brochures.brochuresfragment
 
 import android.graphics.drawable.Drawable
 

@@ -1,6 +1,5 @@
-package com.example.brochures.recycler
+package com.example.brochures.brochuresfragment
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
