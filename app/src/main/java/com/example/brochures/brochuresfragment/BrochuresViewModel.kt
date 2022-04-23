@@ -1,5 +1,6 @@
 package com.example.brochures.brochuresfragment
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -25,10 +26,11 @@ class BrochuresViewModel : ViewModel() {
             viewModelScope.launch {
                 var answer: String? = null
                 try {
-                    answer = BrochuresApi.retrofitService.getResponse().toString() //todo .toBrochuresList()
+                    answer = BrochuresApi.retrofitService.getResponse().links?.self?.href ?: "moshi didn't convert"
                 } catch (e: Exception) {
                     answer = "Failure: ${e.message}"
                 } finally {
+                    Log.d("Brochures", "BrochuresViewModel.loadBrochures(): answer = $answer")
                     value = listOf(BrochureItem(answer ?: "", null, retailerName = "", ""))
                 }
             }
