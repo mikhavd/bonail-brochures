@@ -14,10 +14,7 @@ import java.lang.Exception
  */
 class BrochuresViewModel : ViewModel() {
 
-    //todo private val brochures: MutableLiveData<List<BrochureItem>> by lazy(::loadBrochures)
-    // The internal MutableLiveData that stores the status of the most recent request
     private val _status = MutableLiveData<List<BrochureItem>>()
-
     val status: MutableLiveData<List<BrochureItem>> = _status
 
     init {
@@ -28,7 +25,7 @@ class BrochuresViewModel : ViewModel() {
 
     private fun loadBrochures() {
         viewModelScope.launch {
-            _status.value = getBrochuresList() //todo testList()
+            _status.value = getBrochuresList()
         }
     }
 

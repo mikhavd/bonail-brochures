@@ -28,7 +28,7 @@ val retrofit = Retrofit.Builder()
 
 interface BrochuresApiService {
 
-    @GET("shelf.json") //todo  @GET("photos")
+    @GET("shelf.json")
     suspend fun getResponse(): Response  //ShelfResponse
 }
 

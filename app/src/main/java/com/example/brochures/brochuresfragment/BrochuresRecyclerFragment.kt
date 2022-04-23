@@ -36,12 +36,12 @@ class BrochuresRecyclerFragment : Fragment() {
         initObservers()
     }
 
-    private fun initObservers() { //todo
+    private fun initObservers() {
         model.getBrochures().observe(viewLifecycleOwner) { onBrochuresUpdated(it)}
     }
 
     private fun onBrochuresUpdated(brochuresList: List<BrochureItem>) {
-        brochuresRecyclerView.adapter = brochuresList?.let(::BrochuresAdapter)
+        brochuresRecyclerView.adapter = brochuresList.let(::BrochuresAdapter)
     }
 
     private fun initView(view: View) {
