@@ -3,6 +3,10 @@ package com.example.brochures.brochuresfragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.brochures.network.BrochuresApi
+import kotlinx.coroutines.launch
+import java.lang.Exception
 
 /**
  * TODO
@@ -10,8 +14,6 @@ import androidx.lifecycle.ViewModel
  */
 class BrochuresViewModel : ViewModel() {
 
-    private val TEST_IMAGE_URL: String =
-        "https://content-media.bonial.biz/64aa6e5e-7a36-40a8-9e65-c90efe0df3f5/4f8f7ba7-72a5-47cb-82e7-62335db48c81.png"
     private val brochures: MutableLiveData<List<BrochureItem>> by lazy(::loadBrochures)
 
     fun getBrochures(): LiveData<List<BrochureItem>> {
@@ -19,9 +21,18 @@ class BrochuresViewModel : ViewModel() {
     }
 
     private fun loadBrochures(): MutableLiveData<List<BrochureItem>> {
-        //todo this is a stub
         return MutableLiveData<List<BrochureItem>>().apply {
-            value = (arrayListOf(BrochureItem("name", image = null, TEST_IMAGE_URL, "retailer_name")))
+            viewModelScope.launch {
+                var answer: String? = null
+                try {
+                    answer = BrochuresApi.retrofitService.getResponse().toString() //todo .toBrochuresList()
+                } catch (e: Exception) {
+                    answer = "Failure: ${e.message}"
+                } finally {
+                    value = listOf(BrochureItem(answer ?: "", null, retailerName = "", ""))
+                }
+            }
+
         }
     }
 }
