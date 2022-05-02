@@ -6,6 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.brochures.network.BrochuresApi
+import com.example.brochures.network.robopojo.ContentItem
 import kotlinx.coroutines.launch
 import java.lang.Exception
 
@@ -31,62 +32,48 @@ class BrochuresViewModel : ViewModel() {
     }
 
     private suspend fun testList() = listOf(
-        BrochureItem(getTestAnswer() ?: "", null, retailerName = ""),
+        BrochureItem(getTestAnswer() ?: "", null, additionalDescription = ""),
         BrochureItem("name", image = null, "retailer_name")
     )
 
     private suspend fun getBrochuresList(): List<BrochureItem> {
         val brochureList = arrayListOf<BrochureItem>()
-        Log.d("bonial", "getBrochuresList: ")
+        val brochuresContent = arrayListOf<ContentItem>()
+        val retrofit = BrochuresApi.retrofitService
         try {
-            //RoboSolution
-            val retrofit = BrochuresApi.retrofitService
-            val response = retrofit.getResponse()
-            //todo Log.d("brochures", "response = $response")
-            val embedded = response.embedded
-            //todo Log.d("brochures", "embedded= $embedded")
-            val contents = embedded?.contents?.filter { BROCHURES_CONTENT_TYPE.contains(it?.contentType) }
-            //todo Log.d("brochures", "contents = $contents")
-            contents?.forEach {
-
-                /*todoit?.content?.forEach { content ->
-                    Log.d("Brochures", "                content = $it")
-                    content?.content?.retailer?.name?.let { s ->
-                        Log.d("brochures", "retailerName = $s")
-                    }
-                }*/
+            retrofit.getResponse().embedded?.contents?.filter { contentsItem ->
+                BROCHURES_CONTENT_TYPE.contains(contentsItem?.contentType)
+            }?.forEach { brochure ->
+                brochure?.content?.firstOrNull { it?.retailer?.name != null }?.let { brochuresContent += it }
             }
-        }
-        /*try {
-            BrochuresApi.retrofitService.getResponse().embedded?.contents?.filter { content ->
-                BROCHURES_CONTENT_TYPE.contains(content?.contentType?.lowercase())
-            }?.mapNotNull { content ->
-                content?.content?.forEach { innerContent ->
-                    innerContent?.name?.let { publisherName ->
-                        brochureList += BrochureItem(publisherName, null, publisherName)
-                    }
-                }
-            }
-        } */
-        catch (e: Exception) {
+        } catch (e: Exception) {
             "Failure: ${e.message}"
             Log.d("brochures", "e: $e")
         } finally {
         }
-        return brochureList.takeIf { it.isNotEmpty() } ?: testList()
-    }
+        brochuresContent.forEachIndexed { index, element ->
+            val brochureItem = BrochureItem(
+                name = element.retailer?.name ?: "",
+                //todo retrofit.getImage(element.brochureImage),
+                additionalDescription = (index.toString() + 1))
+            brochureList += brochureItem //todo !it.brochureImage) }}
 
-    private suspend fun getTestAnswer(): String? {
-        val testAnswer: String? = try {
-            BrochuresApi.retrofitService.getResponse().links?.self?.href ?: "moshi didn't convert"
-        } catch (e: Exception) {
-            "Failure: ${e.message}"
-        } finally {
         }
-        return testAnswer
+        return brochureList.takeIf(ArrayList<BrochureItem>::isNotEmpty) ?: testList()
     }
 
-    companion object {
-        private val BROCHURES_CONTENT_TYPE: Set<String> = setOf("brochure".lowercase(), "brochurePremium".lowercase())
+        private suspend fun getTestAnswer(): String? {
+            val testAnswer: String? = try {
+                BrochuresApi.retrofitService.getResponse().links?.self?.href ?: "moshi didn't convert"
+            } catch (e: Exception) {
+                "Failure: ${e.message}"
+            } finally {
+            }
+            return testAnswer
+        }
+
+        companion object {
+            private val BROCHURES_CONTENT_TYPE: Set<String> =
+                setOf("brochure".lowercase(), "brochurePremium".lowercase())
+        }
     }
-}

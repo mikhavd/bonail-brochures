@@ -3,7 +3,6 @@ package com.example.brochures.brochuresfragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.brochures.R
@@ -44,7 +43,7 @@ class BrochuresAdapter(private val items: List<BrochureItem>) : RecyclerView.Ada
         fun bindView(brochureItem: BrochureItem) {
             //todo brochureItem.image?.let { imageView.setImageDrawable(it) }
             name.text = brochureItem.name
-            retailerName.text = brochureItem.retailerName
+            retailerName.text = brochureItem.additionalDescription
         }
     }
 }
