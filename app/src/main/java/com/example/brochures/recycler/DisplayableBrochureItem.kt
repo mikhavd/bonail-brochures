@@ -1,8 +1,8 @@
-package com.example.brochures.brochuresfragment
+package com.example.brochures.recycler
 
 import android.graphics.drawable.Drawable
 
-data class BrochureItem(
+data class DisplayableBrochureItem(
     val name: String,
     val image: Drawable? = null,
     val additionalDescription: String = ""

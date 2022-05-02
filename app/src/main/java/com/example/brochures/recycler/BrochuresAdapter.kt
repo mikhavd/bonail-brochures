@@ -1,4 +1,4 @@
-package com.example.brochures.brochuresfragment
+package com.example.brochures.recycler
 
 import android.view.LayoutInflater
 import android.view.View
@@ -12,7 +12,7 @@ import com.example.brochures.R
  *
  * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
  */
-class BrochuresAdapter(private val items: List<BrochureItem>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class BrochuresAdapter(private val items: List<DisplayableBrochureItem>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(
@@ -37,10 +37,10 @@ class BrochuresAdapter(private val items: List<BrochureItem>) : RecyclerView.Ada
     private class BrochureViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         //todo private var imageView: ImageView = itemView.findViewById(R.id.icon_view)
-        private var name: TextView = itemView.findViewById(R.id.brochure_name)
-        private val retailerName: TextView = itemView.findViewById(R.id.retailer_name)
+        private var name: TextView = itemView.findViewById(R.id.retailer_name)
+        private val retailerName: TextView = itemView.findViewById(R.id.description)
 
-        fun bindView(brochureItem: BrochureItem) {
+        fun bindView(brochureItem: DisplayableBrochureItem) {
             //todo brochureItem.image?.let { imageView.setImageDrawable(it) }
             name.text = brochureItem.name
             retailerName.text = brochureItem.additionalDescription

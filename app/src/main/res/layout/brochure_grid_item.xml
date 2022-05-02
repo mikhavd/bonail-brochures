@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="contentItem"
+            type="com.example.brochures.network.robopojo.ContentItem" />
+    </data>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/icon_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:imageUrl="@{contentItem.brochureImage}"
+            tools:src="@tools:sample/backgrounds/scenic"
+        />
+
+        <TextView
+            android:id="@+id/retailer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@id/description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/icon_view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@{contentItem.retailer.name}"
+            />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/retailer_name"
+            app:layout_constraintTop_toBottomOf="@id/icon_view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="RETAILER_NAME!"
+            />
+    </LinearLayout>
+</layout>

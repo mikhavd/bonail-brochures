@@ -1,16 +1,17 @@
 package com.example.brochures.brochuresfragment
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import com.example.brochures.R
+import com.example.brochures.databinding.FragmentOverviewBinding
+import com.example.brochures.network.robopojo.ContentItem
+import com.example.brochures.recycler.BrochuresAdapter
+import com.example.brochures.recycler.DisplayableBrochureItem
 
 /**
  * TODO
@@ -26,6 +27,8 @@ class BrochuresRecyclerFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
+        //todo val binding = GridViewItemBinding.inflate(inflater)
+        val binding = FragmentOverviewBinding.inflate(inflater)
         val view = inflater.inflate(R.layout.brochures_recycler_fragment, container, false)
         initView(view)
         return view
@@ -37,11 +40,13 @@ class BrochuresRecyclerFragment : Fragment() {
     }
 
     private fun initObservers() {
-        model.getBrochures().observe(viewLifecycleOwner) { onBrochuresUpdated(it)}
+        model.brochures.observe(viewLifecycleOwner) { this.onBrochuresUpdated(it) }
     }
 
-    private fun onBrochuresUpdated(brochuresList: List<BrochureItem>) {
-        brochuresRecyclerView.adapter = brochuresList.let(::BrochuresAdapter)
+    private fun onBrochuresUpdated(brochuresList: List<ContentItem>) {
+        brochuresList.mapNotNull { it.retailer?.name?.let(::DisplayableBrochureItem) }.let { list ->
+            brochuresRecyclerView.adapter = BrochuresAdapter(list)
+        }
     }
 
     private fun initView(view: View) {

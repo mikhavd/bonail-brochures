@@ -1,6 +1,5 @@
 package com.example.brochures.network
 
-import com.example.brochures.network.parsingobjects.Response
 import com.example.brochures.network.robopojo.RoboResponse
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
