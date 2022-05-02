@@ -1,6 +1,7 @@
 package com.example.brochures.network
 
 import com.example.brochures.network.parsingobjects.Response
+import com.example.brochures.network.robopojo.RoboResponse
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit
@@ -29,7 +30,7 @@ val retrofit = Retrofit.Builder()
 interface BrochuresApiService {
 
     @GET("shelf.json")
-    suspend fun getResponse(): Response  //ShelfResponse
+    suspend fun getResponse(): RoboResponse
 }
 
 object BrochuresApi {

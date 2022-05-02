@@ -1,5 +1,6 @@
 package com.example.brochures.brochuresfragment
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -36,18 +37,40 @@ class BrochuresViewModel : ViewModel() {
 
     private suspend fun getBrochuresList(): List<BrochureItem> {
         val brochureList = arrayListOf<BrochureItem>()
+        Log.d("bonial", "getBrochuresList: ")
         try {
+            //RoboSolution
+            val retrofit = BrochuresApi.retrofitService
+            val response = retrofit.getResponse()
+            //todo Log.d("brochures", "response = $response")
+            val embedded = response.embedded
+            //todo Log.d("brochures", "embedded= $embedded")
+            val contents = embedded?.contents?.filter { BROCHURES_CONTENT_TYPE.contains(it?.contentType) }
+            //todo Log.d("brochures", "contents = $contents")
+            contents?.forEach {
+
+                /*todoit?.content?.forEach { content ->
+                    Log.d("Brochures", "                content = $it")
+                    content?.content?.retailer?.name?.let { s ->
+                        Log.d("brochures", "retailerName = $s")
+                    }
+                }*/
+            }
+        }
+        /*try {
             BrochuresApi.retrofitService.getResponse().embedded?.contents?.filter { content ->
-                BROCHURES_CONTENT_TYPE.contains(content.contentType?.lowercase())
+                BROCHURES_CONTENT_TYPE.contains(content?.contentType?.lowercase())
             }?.mapNotNull { content ->
-                content.innerContentWrapper?.innerContent?.forEach { innerContent ->
-                    innerContent.publisher?.name?.let { publisherName ->
+                content?.content?.forEach { innerContent ->
+                    innerContent?.name?.let { publisherName ->
                         brochureList += BrochureItem(publisherName, null, publisherName)
                     }
                 }
             }
-        } catch (e: Exception) {
+        } */
+        catch (e: Exception) {
             "Failure: ${e.message}"
+            Log.d("brochures", "e: $e")
         } finally {
         }
         return brochureList.takeIf { it.isNotEmpty() } ?: testList()
