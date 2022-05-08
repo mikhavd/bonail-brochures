@@ -32,7 +32,7 @@
         tools:context="com.example.android.marsphotos.overview.OverViewFragment">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/photos_grid"
+            android:id="@+id/brochures_grid"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:padding="6dp"
@@ -55,6 +55,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/image"
             app:marsApiStatus="@{viewModel.status}" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

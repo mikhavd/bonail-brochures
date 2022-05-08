@@ -35,7 +35,7 @@ class BrochuresGridFragment : Fragment() {
         binding.viewModel = viewModel
 
         // Sets the adapter of the photosGrid RecyclerView
-        binding.photosGrid.adapter = BrochuresGridAdapter()
+        binding.brochuresGrid.adapter = BrochuresGridAdapter()
 
         return binding.root
     }

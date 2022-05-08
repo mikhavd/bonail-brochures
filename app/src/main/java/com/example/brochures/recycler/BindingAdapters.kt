@@ -1,4 +1,5 @@
 package com.example.brochures.recycler
+
 import android.view.View
 import android.widget.ImageView
 import androidx.core.net.toUri
@@ -10,7 +11,7 @@ import com.example.brochures.brochuresfragment.BrochuresApiStatus
 import com.example.brochures.network.robopojo.ContentItem
 
 /**
- * List of Bindings for grid
+ * List of Bindings for grid images layout
  * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 
@@ -23,7 +24,7 @@ fun bindImage(imgView: ImageView, imgUrl: String?) {
             error(R.drawable.ic_broken_image)
         }
         // Load the image in the background using Coil.
-    }
+    } ?: imgView.setImageResource(R.drawable.ic_broken_image)
 }
 
 @BindingAdapter("listData")
@@ -31,7 +32,6 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<ContentItem>?) {
     val adapter = recyclerView.adapter as BrochuresGridAdapter
     adapter.submitList(data)
 }
-
 
 /**
  * This binding adapter displays the [BrochuresApiStatus] of the network request in an image view.  When
