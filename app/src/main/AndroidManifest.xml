@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Brochures">
         <activity
-            android:name=".main.MainActivity"
+            android:name=".main.BrochuresMainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Brochures.NoActionBar">

@@ -9,7 +9,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.brochures.R
 import com.example.brochures.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class BrochuresMainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
