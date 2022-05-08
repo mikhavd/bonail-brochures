@@ -3,7 +3,7 @@ package com.example.brochures.network.robopojo
 import com.example.brochures.network.SingleToArray
 import com.squareup.moshi.Json
 
-data class RoboResponse(
+data class ShelfResponse(
 
 	@Json(name = "_embedded")
 	val embedded: Embedded? = null,
