@@ -30,6 +30,10 @@ val retrofit: Retrofit = Retrofit.Builder()
     .addCallAdapterFactory(rxAdapter)
     .build()
 
+/**
+ * Interface for obtaining [ShelfResponse] from
+ * [https://test-mobile-configuration-files.s3.eu-central-1.amazonaws.com/stories-test]
+ */
 interface BrochuresApiService {
 
     @GET("shelf.json")

@@ -4,7 +4,8 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.brochures.network.BrochuresApi
+import androidx.lifecycle.ViewModelProvider
+import com.example.brochures.network.BrochuresApiService
 import com.example.brochures.network.robopojo.ContentItem
 import com.example.brochures.network.robopojo.ShelfResponse
 import rx.android.schedulers.AndroidSchedulers
@@ -16,9 +17,11 @@ enum class BrochuresApiStatus { LOADING, ERROR, DONE }
  * ViewModel that provides:
  * * a list of brochures, loaded via network ([brochures])
  * * a status of brochures' loading process ([status])
+ *
+ * @param brochuresApiService
  * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
-class BrochuresViewModel : ViewModel() {
+class BrochuresViewModel(private val brochuresApiService: BrochuresApiService) : ViewModel() {
 
     // The internal MutableLiveData that stores the status of the most recent request
     private val _status = MutableLiveData(BrochuresApiStatus.LOADING)
@@ -37,7 +40,7 @@ class BrochuresViewModel : ViewModel() {
     }
 
     private fun loadBrochures() {
-        BrochuresApi.retrofitService.getShelfResponse()
+        brochuresApiService.getShelfResponse()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSubscribe { _status.value = BrochuresApiStatus.LOADING }
@@ -70,5 +73,13 @@ class BrochuresViewModel : ViewModel() {
     companion object {
         private val BROCHURES_CONTENT_TYPE: Set<String> =
             setOf("brochure".lowercase(), "brochurePremium".lowercase())
+    }
+
+    @Suppress("UNCHECKED_CAST")
+    class BrochuresViewModelFactory(private val brochuresApiService: BrochuresApiService) : ViewModelProvider.Factory {
+
+        override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+            return BrochuresViewModel(brochuresApiService) as T
+        }
     }
 }
