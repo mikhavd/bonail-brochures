@@ -10,8 +10,8 @@ import com.example.brochures.databinding.FragmentOverviewBinding
 import com.example.brochures.recycler.BrochuresGridAdapter
 
 /**
- * TODO
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * Fragment for displaying a grid of brochures
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 class BrochuresGridFragment : Fragment() {
 

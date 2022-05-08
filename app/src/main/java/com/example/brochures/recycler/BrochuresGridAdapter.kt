@@ -9,8 +9,8 @@ import com.example.brochures.databinding.BrochureGridItemBinding
 import com.example.brochures.network.robopojo.ContentItem
 
 /**
- * TODO
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * Grid for displaying a list brochures in two columns
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 class BrochuresGridAdapter : ListAdapter<ContentItem,
     BrochuresGridAdapter.BrochureViewHolder>(DiffCallback) {
@@ -34,7 +34,7 @@ class BrochuresGridAdapter : ListAdapter<ContentItem,
 
     /**
      * Allows the RecyclerView to determine which items have changed when the [List] of
-     * [MarsPhoto] has been updated.
+     * [ContentItem] has been updated.
      */
     companion object DiffCallback : DiffUtil.ItemCallback<ContentItem>() {
         override fun areItemsTheSame(oldItem: ContentItem, newItem: ContentItem): Boolean {

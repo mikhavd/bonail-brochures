@@ -11,8 +11,8 @@ import retrofit2.http.GET
 import rx.Observable
 
 /**
- * TODO
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * Services for API [https://test-mobile-configuration-files.s3.eu-central-1.amazonaws.com/stories-test/"]
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 
 private const val BASE_URL = """https://test-mobile-configuration-files.s3.eu-central-1.amazonaws.com/stories-test/"""

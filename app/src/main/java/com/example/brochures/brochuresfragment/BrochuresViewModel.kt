@@ -13,8 +13,10 @@ import rx.schedulers.Schedulers
 enum class BrochuresApiStatus { LOADING, ERROR, DONE }
 
 /**
- * TODO
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * ViewModel that provides:
+ * * a list of brochures, loaded via network ([brochures])
+ * * a status of brochures' loading process ([status])
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 class BrochuresViewModel : ViewModel() {
 
@@ -24,7 +26,10 @@ class BrochuresViewModel : ViewModel() {
     // The external immutable LiveData for the request status
     val status: LiveData<BrochuresApiStatus> = _status
 
+    //The internal obtained list for brochures to display
     private val _brochures = MutableLiveData<List<ContentItem>>()
+
+    // The external immutable LiveData for brochures to display
     val brochures: LiveData<List<ContentItem>> = _brochures
 
     init {
@@ -36,10 +41,10 @@ class BrochuresViewModel : ViewModel() {
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSubscribe { _status.value = BrochuresApiStatus.LOADING }
-            .subscribe(this::parseOnSuccess, this::onFailure)
+            .subscribe(this::parseShelfResponse, this::onFailure)
     }
 
-    private fun parseOnSuccess(response: ShelfResponse?) {
+    private fun parseShelfResponse(response: ShelfResponse?) {
         arrayListOf<ContentItem>().apply {
             response?.embedded?.contents?.filter { contentsItem ->
                 BROCHURES_CONTENT_TYPE.contains(contentsItem?.contentType)

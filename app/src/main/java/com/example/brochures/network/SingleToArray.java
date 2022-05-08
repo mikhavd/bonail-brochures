@@ -19,9 +19,10 @@ import java.util.Set;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * TODO
+ * Annotation for converting a single property to list;
+ * Used in case if list of entities and a single entity sharing a same name in JSON
  *
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 @Retention(RUNTIME)
 @JsonQualifier
@@ -51,14 +52,17 @@ public @interface SingleToArray {
             this.elementAdapter = elementAdapter;
         }
 
-        @Nullable @Override public List<Object> fromJson(JsonReader reader) throws IOException {
+        @Nullable
+        @Override
+        public List<Object> fromJson(JsonReader reader) throws IOException {
             if (reader.peek() != JsonReader.Token.BEGIN_ARRAY) {
                 return Collections.singletonList(elementAdapter.fromJson(reader));
             }
             return delegateAdapter.fromJson(reader);
         }
 
-        @Override public void toJson(JsonWriter writer, @Nullable List<Object> value)
+        @Override
+        public void toJson(JsonWriter writer, @Nullable List<Object> value)
                 throws IOException {
             if (value.size() == 1) {
                 elementAdapter.toJson(writer, value.get(0));

@@ -10,8 +10,8 @@ import com.example.brochures.brochuresfragment.BrochuresApiStatus
 import com.example.brochures.network.robopojo.ContentItem
 
 /**
- * TODO
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * List of Bindings for grid
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 
 @BindingAdapter("imageUrl")
@@ -54,7 +54,4 @@ fun bindStatus(statusImageView: ImageView, status: BrochuresApiStatus?) {
             statusImageView.visibility = View.GONE
         }
     }
-}
-
-class BindingAdapters {
 }
