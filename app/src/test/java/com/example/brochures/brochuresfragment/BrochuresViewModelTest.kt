@@ -1,6 +1,5 @@
 package com.example.brochures.brochuresfragment
 
-import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
 import com.example.brochures.network.BrochuresApiService
 import com.example.brochures.network.SingleToArray
@@ -19,8 +18,6 @@ import junit.framework.Assert.assertEquals
 import junit.framework.Assert.assertFalse
 import junit.framework.Assert.fail
 import org.junit.Before
-import org.junit.ClassRule
-import org.junit.Rule
 import org.junit.Test
 import rx.Observable
 import java.nio.file.Files
@@ -43,8 +40,9 @@ class BrochuresViewModelTest {
         .build()
     private val adapter: JsonAdapter<ShelfResponse> = moshi.adapter(ShelfResponse::class.java)
     private var loader: ClassLoader = ClassLoader.getSystemClassLoader()
+    private val testSchedulerProvider = TestSchedulerProvider()
 
-    companion object {
+    /*companion object {
         @ClassRule
         @JvmField
         val schedulers = RxImmediateSchedulerRule()
@@ -59,6 +57,7 @@ class BrochuresViewModelTest {
     @Rule
     @JvmField
     val rule = InstantTaskExecutorRule()
+    */
 
     @Before
     fun setupTest() {
@@ -67,7 +66,7 @@ class BrochuresViewModelTest {
 
     @Test
     fun getLoadingStatusForNonObtainedResponse() {
-        viewModel = BrochuresViewModel(brochuresApiService)
+        viewModel = BrochuresViewModel(brochuresApiService, testSchedulerProvider)
         viewModel.status.observeForever(statusObserver)
         verify { statusObserver.onChanged(BrochuresApiStatus.LOADING) }
     }
@@ -75,7 +74,7 @@ class BrochuresViewModelTest {
     @Test
     fun parseEmptyResponse() {
         every { brochuresApiService.getShelfResponse() } returns Observable.just(ShelfResponse())
-        viewModel = BrochuresViewModel(brochuresApiService)
+        viewModel = BrochuresViewModel(brochuresApiService, testSchedulerProvider)
         viewModel.brochures.observeForever(brochuresObserver)
         viewModel.status.observeForever(statusObserver)
         verify { statusObserver.onChanged(BrochuresApiStatus.LOADING) }
@@ -89,12 +88,12 @@ class BrochuresViewModelTest {
     @Test
     fun parseFullTestResponse() {
         val fullShelfResponse =
-            Files.lines(Paths.get(loader.getResource(FULL_SHELF_FILE_PATH).toURI()))
+            Files.lines(Paths.get(loader.getResource(Companion.FULL_SHELF_FILE_PATH).toURI()))
                 .parallel()
                 .collect(Collectors.joining()).run { adapter.fromJson(this) }
 
         every { brochuresApiService.getShelfResponse() } returns Observable.just(fullShelfResponse)
-        viewModel = BrochuresViewModel(brochuresApiService)
+        viewModel = BrochuresViewModel(brochuresApiService, testSchedulerProvider)
         viewModel.brochures.observeForever(brochuresObserver)
         viewModel.status.observeForever(statusObserver)
         viewModel.brochures.value?.let { list ->
@@ -110,7 +109,7 @@ class BrochuresViewModelTest {
                 .parallel()
                 .collect(Collectors.joining()).run { adapter.fromJson(this) }
         every { brochuresApiService.getShelfResponse() } returns Observable.just(testSingleBrochure)
-        viewModel = BrochuresViewModel(brochuresApiService)
+        viewModel = BrochuresViewModel(brochuresApiService, testSchedulerProvider)
         viewModel.brochures.observeForever(brochuresObserver)
         viewModel.status.observeForever(statusObserver)
         verify { statusObserver.onChanged(BrochuresApiStatus.LOADING) }
@@ -124,5 +123,10 @@ class BrochuresViewModelTest {
             assertEquals(expected.brochureImage, actual.brochureImage)
         } ?: fail("Should not have thrown any exception")
         //todo assertEquals(BrochuresApiStatus.DONE, viewModel.status.value,)
+    }
+
+    companion object {
+        private const val FULL_SHELF_FILE_PATH = "test_shelf_response.json"
+        private const val SINGLE_BROCHURE_FILE_PATH = "test_single_brochure_response.json"
     }
 }
