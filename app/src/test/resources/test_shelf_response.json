@@ -1,0 +1,3425 @@
+{
+  "_embedded" : {
+    "contents" : [ {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : null,
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "superBannerCarousel",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : [ {
+        "content" : {
+          "id" : "64aa6e5e-7a36-40a8-9e65-c90efe0df3f5",
+          "publisherId" : 424316869,
+          "publishedFrom" : "2022-01-26T23:00:00.000+0000",
+          "publishedUntil" : "2022-02-02T22:59:59.000+0000",
+          "clickUrl" : "kaufda://webview/Kaufland/filiale.kaufland.de/angebote/aktuelle-woche/uebersicht.category=135_Foodknüller.html?cid=DE:disp:bonial_1641805581249",
+          "imageUrl" : "https://content-media.bonial.biz/64aa6e5e-7a36-40a8-9e65-c90efe0df3f5/4f8f7ba7-72a5-47cb-82e7-62335db48c81.png"
+        },
+        "externalTracking" : {
+          "impression" : [ ],
+          "click" : [ ]
+        }
+      } ]
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : null,
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "storyCarousel",
+      "content" : [ {
+        "title" : "BAUHAUS",
+        "publisherId" : "92",
+        "publisherImage" : "https://destinations-images.kaufda.de/image-manager-images/publisher-logos/92_1642059801616.png",
+        "items" : [ {
+          "content" : {
+            "id" : "b9d46a24-36c4-46a8-8601-99f0a24bdc51",
+            "publisherId" : "92",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-05T01:00:00.000+0100",
+            "linkOut" : {
+              "label" : "Jetzt entdecken",
+              "mobileUrl" : "kaufda://brochureviewer/1622881451",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/b9d46a2436c446a8860199f0a24bdc51_1643301586474.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "bf1dd8a6-4bce-46f7-9d52-0d34d79bd2fe",
+            "publisherId" : "92",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-05T01:00:00.000+0100",
+            "linkOut" : {
+              "label" : "Angebot entdecken",
+              "mobileUrl" : "kaufda://brochureviewer/1622881451/{page}/727a387b-bb80-47da-aad8-960248887d7e",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/bf1dd8a64bce46f79d520d34d79bd2fe_1643301754744.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "4a77bfde-2e9e-4603-b0d1-78e8465a07c0",
+            "publisherId" : "92",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-05T01:00:00.000+0100",
+            "linkOut" : {
+              "label" : "Angebot entdecken",
+              "mobileUrl" : "kaufda://brochureviewer/1622881451/{page}/30fc1b00-6b5f-43fa-99da-82b9ab149869",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/4a77bfde2e9e4603b0d178e8465a07c0_1643301857721.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "e19a76fa-e1bc-41cf-b239-dba03eecba00",
+            "publisherId" : "92",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-05T01:00:00.000+0100",
+            "linkOut" : {
+              "label" : "Angebot entdecken",
+              "mobileUrl" : "kaufda://brochureviewer/1622881451/{page}/58dfecbf-332e-4fa0-aefd-8ecf5d3efffb",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/e19a76fae1bc41cfb239dba03eecba00_1643301951298.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        } ]
+      }, {
+        "title" : "XXXLutz",
+        "publisherId" : "34906914",
+        "publisherImage" : "https://destinations-images.kaufda.de/image-manager-images/publisher-logos/34906914.png",
+        "items" : [ {
+          "content" : {
+            "id" : "7f2c8798-e306-41a8-b560-8c05bf369a66",
+            "publisherId" : "34906914",
+            "publishedFrom" : "2022-01-31T08:02:00.000+0100",
+            "publishedUntil" : "2022-02-06T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Prospekt ansehen",
+              "mobileUrl" : null,
+              "webUrl" : "kaufda://brochureviewer/1606918908/4",
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/7f2c8798e30641a8b5608c05bf369a66_1643708361946.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "53882ecb-8cbe-40b2-acfc-284783536a7d",
+            "publisherId" : "34906914",
+            "publishedFrom" : "2022-01-31T08:10:00.000+0100",
+            "publishedUntil" : "2022-02-06T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Prospekt ansehen",
+              "mobileUrl" : null,
+              "webUrl" : "kaufda://brochureviewer/1606918908/5",
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/53882ecb8cbe40b2acfc284783536a7d_1643708375539.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "ace412bc-703e-43d5-b41d-e1aeac61e2b7",
+            "publisherId" : "34906914",
+            "publishedFrom" : "2022-01-31T08:13:00.000+0100",
+            "publishedUntil" : "2022-02-06T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Prospekt ansehen",
+              "mobileUrl" : null,
+              "webUrl" : "kaufda://brochureviewer/1606918908/7",
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/ace412bc703e43d5b41de1aeac61e2b7_1643708397013.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        } ]
+      }, {
+        "title" : "POCO",
+        "publisherId" : "1052",
+        "publisherImage" : "https://destinations-images.kaufda.de/image-manager-images/publisher-logos/1052_1643376219463.png",
+        "items" : [ {
+          "content" : {
+            "id" : "4cf38ce2-506f-42bd-9101-6ff29746c6cb",
+            "publisherId" : "1052",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-04T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Jetzt entdecken",
+              "mobileUrl" : "kaufda://brochureviewer/1620128616/7",
+              "webUrl" : null,
+              "bgColor" : "#c00d0d",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/4cf38ce2506f42bd91016ff29746c6cb_1643101992551.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "6b0cf902-aba5-4eab-bbee-e7f2cd63e7c0",
+            "publisherId" : "1052",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-04T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Jetzt entdecken",
+              "mobileUrl" : "kaufda://brochureviewer/1620128616/3",
+              "webUrl" : null,
+              "bgColor" : "#c00d0d",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/6b0cf902aba54eabbbeee7f2cd63e7c0_1643102167029.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        } ]
+      }, {
+        "title" : "Hammer",
+        "publisherId" : "95674704",
+        "publisherImage" : "https://destinations-images.kaufda.de/image-manager-images/publisher-logos/95674704_1642694014594.png",
+        "items" : [ {
+          "content" : {
+            "id" : "1cc57c4c-496c-4b9a-9fa8-6504f9b831b4",
+            "publisherId" : "95674704",
+            "publishedFrom" : "2022-01-26T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-01T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Angebote entdecken",
+              "mobileUrl" : "kaufda://slot/1620037934",
+              "webUrl" : null,
+              "bgColor" : "#0099A5",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/1cc57c4c496c4b9a9fa86504f9b831b4_1643106291481.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "b9148b87-6a0f-4277-b87d-9d11c2b81ef0",
+            "publisherId" : "95674704",
+            "publishedFrom" : "2022-01-26T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-01T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Angebote entdecken",
+              "mobileUrl" : "kaufda://slot/1620037934",
+              "webUrl" : null,
+              "bgColor" : "#0099A5",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/b9148b876a0f4277b87d9d11c2b81ef0_1643106384023.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "c8093573-fcd9-4494-a906-c17ef214370b",
+            "publisherId" : "95674704",
+            "publishedFrom" : "2022-01-26T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-01T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Angebote entdecken",
+              "mobileUrl" : "kaufda://slot/1620037934",
+              "webUrl" : null,
+              "bgColor" : "#0099A5",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/c8093573fcd94494a906c17ef214370b_1643106506042.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "8753d188-6fb1-4598-93ee-d704cf7fc3f3",
+            "publisherId" : "95674704",
+            "publishedFrom" : "2022-01-26T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-01T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Prospekt entdecken",
+              "mobileUrl" : "kaufda://slot/1620037934",
+              "webUrl" : null,
+              "bgColor" : "#0099A5",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/8753d1886fb1459893eed704cf7fc3f3_1643106640350.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        } ]
+      }, {
+        "title" : "Woolworth",
+        "publisherId" : "1080",
+        "publisherImage" : "https://destinations-images.kaufda.de/image-manager-images/publisher-logos/1080.png",
+        "items" : [ {
+          "content" : {
+            "id" : "36f1088b-e0bc-4fed-af06-76c0b1abcad3",
+            "publisherId" : "1080",
+            "publishedFrom" : "2022-01-20T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-03T23:00:00.000+0100",
+            "linkOut" : {
+              "label" : null,
+              "mobileUrl" : "kaufda://brochureviewer/1620127151",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/36f1088be0bc4fedaf0676c0b1abcad3_1642598155976.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "3da3c5e3-7ef0-4604-83a0-bc9d0cddee39",
+            "publisherId" : "1080",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-03T23:00:00.000+0100",
+            "linkOut" : {
+              "label" : null,
+              "mobileUrl" : null,
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/3da3c5e37ef0460483a0bc9d0cddee39_1641987762976.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "8cda0513-3d24-482b-ac0e-3d41f4d86a71",
+            "publisherId" : "1080",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-03T23:00:00.000+0100",
+            "linkOut" : {
+              "label" : null,
+              "mobileUrl" : null,
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/8cda05133d24482bac0e3d41f4d86a71_1641987816690.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "14d90094-8b99-450b-939e-507aa0965cb4",
+            "publisherId" : "1080",
+            "publishedFrom" : "2022-01-28T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-03T23:00:00.000+0100",
+            "linkOut" : {
+              "label" : null,
+              "mobileUrl" : null,
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/14d900948b99450b939e507aa0965cb4_1641987939437.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "2653901c-c6e7-4d89-a779-484809c7fee1",
+            "publisherId" : "1080",
+            "publishedFrom" : "2022-01-28T12:30:00.000+0100",
+            "publishedUntil" : "2022-02-04T23:00:00.000+0100",
+            "linkOut" : {
+              "label" : "Prospekt ansehen",
+              "mobileUrl" : "kaufda://brochureviewer/1623225687",
+              "webUrl" : null,
+              "bgColor" : "#DD052B",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/2653901cc6e74d89a779484809c7fee1_1643368122438.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "e0f0b235-c847-4d52-b7ea-5c9f169c8d6d",
+            "publisherId" : "1080",
+            "publishedFrom" : "2022-01-28T12:30:00.000+0100",
+            "publishedUntil" : "2022-02-04T23:00:00.000+0100",
+            "linkOut" : {
+              "label" : "Prospekt ansehen",
+              "mobileUrl" : "kaufda://brochureviewer/1623225687",
+              "webUrl" : null,
+              "bgColor" : "#DD052B",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/e0f0b235c8474d52b7ea5c9f169c8d6d_1643368177365.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "94fae883-b771-4c08-a8d2-d434d2a4ad82",
+            "publisherId" : "1080",
+            "publishedFrom" : "2022-01-28T12:30:00.000+0100",
+            "publishedUntil" : "2022-02-04T23:00:00.000+0100",
+            "linkOut" : {
+              "label" : "Prospekt ansehen",
+              "mobileUrl" : "kaufda://brochureviewer/1623225687",
+              "webUrl" : null,
+              "bgColor" : "#DD052B",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/94fae883b7714c08a8d2d434d2a4ad82_1643368344298.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        } ]
+      }, {
+        "title" : "Top Deals",
+        "publisherId" : "1617560765",
+        "publisherImage" : "https://destinations-images.kaufda.de/image-manager-images/publisher-logos/1617560765_1642163198735.png",
+        "items" : [ {
+          "content" : {
+            "id" : "2ca4f46b-b589-4d28-8867-a5ad040f34d8",
+            "publisherId" : "1617560765",
+            "publishedFrom" : "2022-01-30T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-02T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : null,
+              "mobileUrl" : null,
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/2ca4f46bb5894d288867a5ad040f34d8_1643373554377.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "cee38c0e-acdb-419e-9813-ec15ecd5f733",
+            "publisherId" : "1617560765",
+            "publishedFrom" : "2022-01-30T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-02T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Zum Angebot",
+              "mobileUrl" : "kaufda://slot/926761808",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/cee38c0eacdb419e9813ec15ecd5f733_1643373620214.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "865eed0f-fd40-4268-b44e-25223c6b36d0",
+            "publisherId" : "1617560765",
+            "publishedFrom" : "2022-01-30T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-02T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Zum Angebot",
+              "mobileUrl" : "kaufda://slot/770087883",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/865eed0ffd404268b44e25223c6b36d0_1643373728592.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "3a85a7a0-c352-49df-be16-5c7f4a1d4839",
+            "publisherId" : "1617560765",
+            "publishedFrom" : "2022-01-30T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-02T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Zum Angebot",
+              "mobileUrl" : "kaufda://slot/1383890711",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/3a85a7a0c35249dfbe165c7f4a1d4839_1643373774576.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        } ]
+      }, {
+        "title" : "kaufDA Magazin",
+        "publisherId" : "1369918583",
+        "publisherImage" : "https://destinations-images.kaufda.de/image-manager-images/publisher-logos/1369918583_1638962361115.png",
+        "items" : [ {
+          "content" : {
+            "id" : "469cb127-cac5-4279-b30a-c49ae52d0862",
+            "publisherId" : "1369918583",
+            "publishedFrom" : "2022-01-31T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-06T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Jetzt entdecken",
+              "mobileUrl" : "kaufda://blog/www.kaufda.de/insights/die-leckersten-produkt-neuheiten-zum-start-in-2022/",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/469cb127cac54279b30ac49ae52d0862_1643287218973.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "8c8bd64b-5a9a-4626-8882-5a2b7ddcd642",
+            "publisherId" : "1369918583",
+            "publishedFrom" : "2022-01-31T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-06T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Jetzt entdecken",
+              "mobileUrl" : "kaufda://kaufda://blog/www.kaufda.de/insights/die-leckersten-produkt-neuheiten-zum-start-in-2022/",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/8c8bd64b5a9a462688825a2b7ddcd642_1643287256436.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "5756a77c-dcb8-49b3-9b87-b04237eea2f7",
+            "publisherId" : "1369918583",
+            "publishedFrom" : "2022-01-31T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-06T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Jetzt entdecken",
+              "mobileUrl" : "kaufda://blog/www.kaufda.de/insights/die-leckersten-produkt-neuheiten-zum-start-in-2022/",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/5756a77cdcb849b39b87b04237eea2f7_1643287300825.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        } ]
+      }, {
+        "title" : "Rezepte",
+        "publisherId" : "1620034199",
+        "publisherImage" : "https://destinations-images.kaufda.de/image-manager-images/publisher-logos/1620034199_1642584817711.png",
+        "items" : [ {
+          "content" : {
+            "id" : "3df3255d-1d28-4a6e-9cd4-db80c9e492b3",
+            "publisherId" : "1620034199",
+            "publishedFrom" : "2022-01-30T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-02T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Zum Rezept",
+              "mobileUrl" : "kaufda://blog/www.kaufda.de/insights/rezept-fuer-leckere-summer-rolls-in-reispapier-mit-erdnuss-dip/",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/3df3255d1d284a6e9cd4db80c9e492b3_1643024929594.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        }, {
+          "content" : {
+            "id" : "f5373441-1a69-45a5-99be-65f89c5077ba",
+            "publisherId" : "1620034199",
+            "publishedFrom" : "2022-01-30T00:00:00.000+0100",
+            "publishedUntil" : "2022-02-02T23:59:00.000+0100",
+            "linkOut" : {
+              "label" : "Zum Rezept",
+              "mobileUrl" : "kaufda://blog/www.kaufda.de/insights/rezept-fuer-leckere-summer-rolls-in-reispapier-mit-erdnuss-dip/",
+              "webUrl" : null,
+              "bgColor" : "#3FBE82",
+              "textColor" : "#FFFFFF"
+            },
+            "video" : {
+              "sizes" : [ {
+                "dimensions" : {
+                  "height" : 1080,
+                  "width" : 1920
+                },
+                "url" : "https://destinations-images.kaufda.de/image-manager-images/story-videos/f53734411a6945a599be65f89c5077ba_1643024964092.mp4"
+              } ]
+            },
+            "thumbnail" : {
+              "dimensions" : {
+                "height" : 1080,
+                "width" : 1920
+              },
+              "url" : ""
+            },
+            "type" : "video"
+          },
+          "externalTracking" : {
+            "impression" : [ ],
+            "click" : [ ]
+          }
+        } ]
+      } ]
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://ad1.adfarm1.adition.com/banner?sid=4590509&kid=4506292&bid=14004489&wpt=C&ts=${timestamp}&gdpr=&gdpr_consent=&optout=1&ipt=0" ]
+      },
+      "content" : {
+        "id" : 1622007859,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T19:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T19:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T19:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 63,
+        "publisher" : {
+          "id" : 1013,
+          "name" : "Lidl",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1013,
+          "name" : "Lidl"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/b2cc4f98-c83a-4880-894e-683dd4b3ab3c/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 1.384040569776516,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620690331,
+        "title" : "Deutschlands bester Preis",
+        "validFrom" : "2022-01-23T23:00:00.000+0000",
+        "validUntil" : "2022-02-06T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T00:00:00.000+0000",
+        "publishedUntil" : "2022-02-02T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 54,
+        "publisher" : {
+          "id" : 34906914,
+          "name" : "XXXLutz Möbelhäuser",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 34906914,
+          "name" : "XXXLutz Möbelhäuser"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/8c0766ca-825a-41e8-a708-c57c775dad61/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 111.44686880392277,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620127151,
+        "title" : "AB 30€ EINKAUFSWERT",
+        "validFrom" : "2022-01-19T23:00:00.000+0000",
+        "validUntil" : "2022-02-03T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-19T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-03T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 6,
+        "publisher" : {
+          "id" : 1080,
+          "name" : "Woolworth",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1080,
+          "name" : "Woolworth"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/70a9d8f2-f76a-44d4-9fa2-315a409303d6/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.247533413758663,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1623225687,
+        "title" : "WSV BIS ZU 85% EISKALT REDUZIERT!",
+        "validFrom" : "2022-01-28T23:00:00.000+0000",
+        "validUntil" : "2022-02-04T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-27T08:00:00.000+0000",
+        "publishedUntil" : "2022-02-04T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 28,
+        "publisher" : {
+          "id" : 1080,
+          "name" : "Woolworth",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1080,
+          "name" : "Woolworth"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/560e95c6-066b-4c64-99c2-e6300fa72a9d/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.247533413758663,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1626047379,
+        "title" : "Frühplaner sind klar im Vorteil!",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-27T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 18,
+        "publisher" : {
+          "id" : 1042,
+          "name" : "OBI",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1042,
+          "name" : "OBI"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/a92236e8-b7eb-4e23-8c91-4fdcc1f43a1a/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.3666010005838434,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_premium",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochurePremium",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1624252612,
+        "title" : "Aktuelle Angebote",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 1,
+        "publisher" : {
+          "id" : 220164,
+          "name" : "EDEKA",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 220164,
+          "name" : "EDEKA"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/1eb07f30-6413-4a01-ac0e-147080aa1be6/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.44105126694561053,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620934475,
+        "title" : "Gestalte deine Räume neu - vom Boden bis zur Decke.",
+        "validFrom" : "2022-01-25T23:00:00.000+0000",
+        "validUntil" : "2022-02-06T22:00:00.000+0000",
+        "publishedFrom" : "2022-02-01T00:00:00.000+0000",
+        "publishedUntil" : "2022-02-04T00:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 1042,
+          "name" : "OBI",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1042,
+          "name" : "OBI"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/d656ca85-d44e-469d-8f7a-ed79a140f40d/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.3666010005838434,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1626057348,
+        "title" : "Aktuelle Angebote",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-15T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-15T22:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 909,
+          "name" : "dm-drogerie markt",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 909,
+          "name" : "dm-drogerie markt"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/39ade9c6-e467-4069-98bf-37907abbc056/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.23955582547339263,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1624759496,
+        "title" : "BATTERIE-CHECK GRATIS",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-06T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 30,
+        "publisher" : {
+          "id" : 77164752,
+          "name" : "ATU",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 77164752,
+          "name" : "ATU"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/369b36f2-d4c4-4218-a98f-53be4248860b/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.1146309718957816,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1624452487,
+        "title" : "WER BAUT BRAUCHT GLOBUS",
+        "validFrom" : "2022-01-29T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-02T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 24,
+        "publisher" : {
+          "id" : 983,
+          "name" : "Globus-Baumarkt",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 983,
+          "name" : "Globus-Baumarkt"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/b35be610-fa35-4baf-bb2e-dff2dfecd5bf/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 6.736619138753564,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622881451,
+        "title" : "Handzettel KW 05",
+        "validFrom" : "2022-01-27T23:00:00.000+0000",
+        "validUntil" : "2022-02-26T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-27T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 22,
+        "publisher" : {
+          "id" : 92,
+          "name" : "BAUHAUS",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 92,
+          "name" : "BAUHAUS"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/0ec42e36-a998-4788-96a2-b89dab218a76/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 4.166612763704836,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1614334585,
+        "title" : "TOP ANGEBOTE",
+        "validFrom" : "2022-01-28T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-26T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 16,
+        "publisher" : {
+          "id" : 131228299,
+          "name" : "Zookauf",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 131228299,
+          "name" : "Zookauf"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/8d5b05c5-07dd-47af-b83c-5449f792aa49/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 8.323129142835503,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620971541,
+        "title" : "Top Angebote!",
+        "validFrom" : "2022-01-25T23:00:00.000+0000",
+        "validUntil" : "2022-02-15T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-25T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-15T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 8,
+        "publisher" : {
+          "id" : 34905198,
+          "name" : "Möbel Kraft",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 34905198,
+          "name" : "Möbel Kraft"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/f76b8e66-ac7f-483b-ba7d-cc8910196270/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.6009112796841993,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1619974658,
+        "title" : "WO WOHNEN WENIG KOSTET!",
+        "validFrom" : "2022-01-25T23:00:00.000+0000",
+        "validUntil" : "2022-02-01T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-25T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-01T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 4,
+        "publisher" : {
+          "id" : 46660,
+          "name" : "Höffner",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 46660,
+          "name" : "Höffner"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/3ff890b8-bb59-4d9f-9854-e48f63a24ee6/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 6.3103344858429145,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_premium",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochurePremium",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620889537,
+        "title" : "DER SATURN 3ER BONUS",
+        "validFrom" : "2022-01-25T23:00:00.000+0000",
+        "validUntil" : "2022-02-08T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-25T19:00:00.000+0000",
+        "publishedUntil" : "2022-02-08T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 13,
+        "publisher" : {
+          "id" : 1065,
+          "name" : "Saturn",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1065,
+          "name" : "Saturn"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/d753a0a0-7fc7-4b92-b34b-5146d1b692ad/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.3601684294370482,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1614877033,
+        "title" : "Die schönsten Sofas für Ihr Zuhause!",
+        "validFrom" : "2022-01-07T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-07T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-28T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 76,
+        "publisher" : {
+          "id" : 46660,
+          "name" : "Höffner",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 46660,
+          "name" : "Höffner"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/d8d19b87-1822-415c-9fe9-6579f4c44885/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 6.3103344858429145,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1611469160,
+        "title" : "Top Angebote!",
+        "validFrom" : "2022-01-04T23:00:00.000+0000",
+        "validUntil" : "2022-02-01T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-04T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-01T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 24,
+        "publisher" : {
+          "id" : 34905198,
+          "name" : "Möbel Kraft",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 34905198,
+          "name" : "Möbel Kraft"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/7b54a5a5-1774-437e-9f64-eaa23af4893f/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.6009112796841993,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : null,
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "blogCarousel",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : [ {
+        "id" : 43004,
+        "campaign_item_id" : "",
+        "title" : "Unsere Prospekt-Highlights der Woche KW 05/ 2022",
+        "link" : "https://www.kaufda.de/insights/unsere-prospekt-highlights-der-woche-kw-05-2022/",
+        "imgURL" : "https://insights.kaufda.de/shared/content/uploads/2022/01/prospekt-highlights-3-1.png",
+        "teaserText" : "Und schon starten wir in die 5. Kalenderwoche des neuen Jahres 2022. Damit ihr immer auf dem neusten Stand seit"
+      }, {
+        "id" : 42868,
+        "campaign_item_id" : "",
+        "title" : "Die leckersten Produkt-Neuheiten zum Start in 2022",
+        "link" : "https://www.kaufda.de/insights/die-leckersten-produkt-neuheiten-zum-start-in-2022/",
+        "imgURL" : "https://insights.kaufda.de/shared/content/uploads/2022/01/produktneuheiten-2022-1-1.png",
+        "teaserText" : "Das neue Jahr hat begonnen und wir können uns auf leckere Produktneuheiten rund um Süßwaren, Drinks, vegane Lebensweise und vieles"
+      }, {
+        "id" : 42296,
+        "campaign_item_id" : "",
+        "title" : "Gesellschaftsspiele für die ganze Familie - Die beliebtesten Spiele 2022",
+        "link" : "https://www.kaufda.de/insights/gesellschaftsspiele-fuer-die-ganze-familie-die-beliebtesten-spiele-2022/",
+        "imgURL" : "https://insights.kaufda.de/shared/content/uploads/2021/12/gesellschaftsspiele-1.png",
+        "teaserText" : "Was macht man, wenn die meiste Zeit des Tages und der aktuellen Ferienzeiten sich zuhause abspielen? Genau, man spielt und"
+      }, {
+        "id" : 42282,
+        "campaign_item_id" : "",
+        "title" : "dm macht Impfen möglich und eröffnet Corona-Schnelltest-Zentren",
+        "link" : "https://www.kaufda.de/insights/dm-macht-impfen-moeglich-und-eroeffnet-corona-schnelltest-zentren/",
+        "imgURL" : "https://insights.kaufda.de/shared/content/uploads/2021/12/dm-impfen-1.png",
+        "teaserText" : "Wir befinden uns aktuell in der 4. Welle der Corona-Pandemie und das bedeutet für uns alle, noch mehr zusammenzuhalten und"
+      }, {
+        "id" : 41481,
+        "campaign_item_id" : "",
+        "title" : "2G & 3G im Einzelhandel: Die Regeln für Supermarkt, Drogerie, Baumarkt und Co. pro Bundesland",
+        "link" : "https://www.kaufda.de/insights/2g-im-einzelhandel-die-regeln-fuer-supermarkt-drogerie-baumarkt-und-co-pro-bundesland/",
+        "imgURL" : "https://insights.kaufda.de/shared/content/uploads/2021/11/2g-im-einzelhandel-regeln.jpg",
+        "teaserText" : "Die Corona-Infektionszahlen steigen wieder. In den letzten Wochen zeichnet sich ein solch deutliches Bild, dass die Regierungen der Bundesländer nun"
+      } ]
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1610095102,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-02T23:00:00.000+0000",
+        "validUntil" : "2022-03-31T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-02T23:00:00.000+0000",
+        "publishedUntil" : "2022-03-31T21:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 200,
+        "publisher" : {
+          "id" : 94684442,
+          "name" : "Holz Possling",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 94684442,
+          "name" : "Holz Possling"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/2abace4f-1f02-4772-8ff4-b400d022087f/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 7.047007399605349,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1626181839,
+        "title" : "10% + 10% AUF FAST ALLES",
+        "validFrom" : "2022-02-01T13:00:00.000+0000",
+        "validUntil" : "2022-02-21T22:00:00.000+0000",
+        "publishedFrom" : "2022-02-01T13:00:00.000+0000",
+        "publishedUntil" : "2022-02-21T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 20,
+        "publisher" : {
+          "id" : 26183,
+          "name" : "Sconto SB",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 26183,
+          "name" : "Sconto SB"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/cf3701e0-14f2-4ef3-900d-4044102ded2c/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.922045251494109,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1619005045,
+        "title" : "Wir feiern 70 Jahre",
+        "validFrom" : "2022-01-14T23:00:00.000+0000",
+        "validUntil" : "2022-03-31T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T00:00:00.000+0000",
+        "publishedUntil" : "2022-02-06T00:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 104536490,
+          "name" : "Baby Walz",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 104536490,
+          "name" : "Baby Walz"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/d62e50b3-6ec1-406e-b14f-63fa0fa7aad6/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 6.346696827110981,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1623228491,
+        "title" : "FÜR BEIDES ENTSCHEIDEN!",
+        "validFrom" : "2022-01-29T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 7,
+        "publisher" : {
+          "id" : 1065,
+          "name" : "Saturn",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1065,
+          "name" : "Saturn"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/0f354758-4141-4c78-a391-cf0817c34501/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.3601684294370482,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : null,
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "referral",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "link" : "kaufda://refer/Title%20is%20here/Hey,%20ich%20nutze%20kaufDA%20und%20glaube,%20es%20w%C3%BCrde%20dir%20gefallen.%20Probiere%20es%20jetzt%20aus:%20https://bit.ly/kaufDA_herunterladen?skipSplash=true",
+        "imageUrl" : "https://destinations-images.kaufda.de/image-manager-images/miscellaneous/referral_tile_01.jpg"
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://track.adform.net/adfserve/?bn=52767861;1x1inv=1;srctype=3;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_50};ord=${timestamp}" ]
+      },
+      "content" : {
+        "id" : 1621957461,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 44,
+        "publisher" : {
+          "id" : 1050,
+          "name" : "Penny-Markt",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1050,
+          "name" : "Penny-Markt"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/c4621b90-c5dd-4651-8b5e-9e10f702cd4e/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 1.7019682790595492,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1623010775,
+        "title" : "Aktuelle Angebote",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T21:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T21:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 20,
+        "publisher" : {
+          "id" : 134439310,
+          "name" : "Ullrich Verbrauchermarkt",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 134439310,
+          "name" : "Ullrich Verbrauchermarkt"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/363ebcb9-8bbf-4fea-a5be-b4b2d03dbe69/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.0538738152837994,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622918643,
+        "title" : "0% FINANZIERUNG",
+        "validFrom" : "2022-01-25T19:00:00.000+0000",
+        "validUntil" : "2022-02-08T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-25T19:00:00.000+0000",
+        "publishedUntil" : "2022-02-08T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 1,
+        "publisher" : {
+          "id" : 1065,
+          "name" : "Saturn",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1065,
+          "name" : "Saturn"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/e102bbab-ce91-4c71-9443-6c32060fd3ef/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.3601684294370482,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620865275,
+        "title" : "Den Winter gut im Griff",
+        "validFrom" : "2021-12-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-27T23:00:00.000+0000",
+        "publishedFrom" : "2022-01-24T14:00:00.000+0000",
+        "publishedUntil" : "2022-02-28T22:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 137419559,
+          "name" : "Volkswagen",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 137419559,
+          "name" : "Volkswagen"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/6a4d7698-bacc-4d31-98d0-3299178a2f4e/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.647549121172198,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : null,
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "rateUs",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : null
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1623447080,
+        "title" : "BESTE Marken • Auswahl • Service • Preis",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-13T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-02T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 48,
+        "publisher" : {
+          "id" : 34906914,
+          "name" : "XXXLutz Möbelhäuser",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 34906914,
+          "name" : "XXXLutz Möbelhäuser"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/fda8ba4b-1b34-4b83-a06c-81ffe4c7d0f6/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 111.44686880392277,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1623181363,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 12,
+        "publisher" : {
+          "id" : 118563,
+          "name" : "Thomas Philipps",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 118563,
+          "name" : "Thomas Philipps"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/8b928c78-abfa-4672-a839-7c60906681df/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 6.186693669779375,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1623375305,
+        "title" : "Online Topseller",
+        "validFrom" : "2022-01-28T18:00:00.000+0000",
+        "validUntil" : "2022-02-02T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-27T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-02T22:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 34906914,
+          "name" : "XXXLutz Möbelhäuser",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 34906914,
+          "name" : "XXXLutz Möbelhäuser"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/c0bef87c-9660-47b5-8620-aef1846ed21e/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 111.44686880392277,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1606918908,
+        "title" : "Deutschlands größter WSV",
+        "validFrom" : "2022-01-02T23:00:00.000+0000",
+        "validUntil" : "2022-02-06T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-02T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-06T22:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 34906914,
+          "name" : "XXXLutz Möbelhäuser",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 34906914,
+          "name" : "XXXLutz Möbelhäuser"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/fc4f9598-8b29-4393-83d7-cc68b75b9769/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 111.44686880392277,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_premium",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochurePremium",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://track.adform.net/adfserve/?bn=52005426;1x1inv=1;srctype=3;ord=${timestamp}" ]
+      },
+      "content" : {
+        "id" : 1624493495,
+        "title" : "Hol dir die Ordnung nach Hause.",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-06T23:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-06T23:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 1002,
+          "name" : "IKEA",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1002,
+          "name" : "IKEA"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/03741dca-952d-4c63-a90a-54fedd4ce878/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 6.536127798781515,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://ad.doubleclick.net/ddm/trackimp/N1111979.2621703BONIALINTERNATIO/B27182477.327328119;dc_trk_aid=519625690;dc_trk_cid=165939765;ord=${timestamp};dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=;gdpr_consent=;ltd=?", "https://pixel.adsafeprotected.com/rfw/st/907318/60653388/skeleton.gif?gdpr=&gdpr_consent=&gdpr_pd=" ]
+      },
+      "content" : {
+        "id" : 1626056628,
+        "title" : "Winter Sale",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-03T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-03T09:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 4,
+        "publisher" : {
+          "id" : 1379641615,
+          "name" : "Sky",
+          "type" : "MANUFACTURER"
+        },
+        "retailer" : null,
+        "brochureImage" : "https://content-media.bonial.biz/5e06adad-5ace-43df-bdc4-188cfb22e718/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.3601684294370482,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://ad1.adfarm1.adition.com/banner?sid=4590509&kid=4506292&bid=14004489&wpt=C&ts=${timestamp}&gdpr=&gdpr_consent=&optout=1&ipt=0" ]
+      },
+      "content" : {
+        "id" : 1625536490,
+        "title" : "Liebe schenken",
+        "validFrom" : "2022-02-06T23:00:00.000+0000",
+        "validUntil" : "2022-02-12T19:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T12:00:00.000+0000",
+        "publishedUntil" : "2022-02-03T23:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 62,
+        "publisher" : {
+          "id" : 1013,
+          "name" : "Lidl",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1013,
+          "name" : "Lidl"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/1b5379c8-5f1c-4e0e-80a4-8eb621581d3b/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 1.384040569776516,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://ad1.adfarm1.adition.com/banner?sid=4590509&kid=4506292&bid=14004489&wpt=C&ts=${timestamp}&gdpr=&gdpr_consent=&optout=1&ipt=0" ]
+      },
+      "content" : {
+        "id" : 1622248000,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T19:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T19:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 9,
+        "publisher" : {
+          "id" : 1013,
+          "name" : "Lidl",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1013,
+          "name" : "Lidl"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/4cbbe0a0-cac6-4870-8fdd-867596d095a7/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 1.384040569776516,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1606685175,
+        "title" : "Aktuelle Angebote",
+        "validFrom" : "2021-12-31T16:00:00.000+0000",
+        "validUntil" : "2022-12-31T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T00:00:00.000+0000",
+        "publishedUntil" : "2022-02-06T00:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 187862586,
+          "name" : "Seats and Sofas",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 187862586,
+          "name" : "Seats and Sofas"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/20fd669e-7e42-40d3-a1f2-2aad07417eaf/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 7.612183446459429,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : null,
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "cashbackOffersV2",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : [ {
+        "remoteOfferId" : "Cashback_2022_02_Angelini_BoxaGrippal",
+        "displayName" : "-",
+        "savingsValueStatement" : "-",
+        "landingPageUrl" : "https://www.boxagrippal.de/",
+        "imageUrl" : "https://destinations-images.kaufda.de/image-manager-images/cashbackoffer-mainshelf/Cashback202202AngeliniBoxaGrippal_1643708867478.png"
+      }, {
+        "remoteOfferId" : "Cashback_2022-02-Hornhaut",
+        "displayName" : "-",
+        "savingsValueStatement" : "-",
+        "landingPageUrl" : "https://coupons.valassis.eu/instances/tetesept_Hornhaut_50Rabatt_2022_kaufDA?synsrc=XTI%2BhyShUeY%3D",
+        "imageUrl" : "https://destinations-images.kaufda.de/image-manager-images/cashbackoffer-mainshelf/Cashback202202Hornhaut_1643362050830.jpg"
+      }, {
+        "remoteOfferId" : "Cashback_2022-02-Schrundensalbe",
+        "displayName" : "-",
+        "savingsValueStatement" : "-",
+        "landingPageUrl" : "https://coupons.valassis.eu/instances/tetesept_Schrundensalbe_50Rabatt_2022_kaufDA?synsrc=SCGLA3gCtbw%3D",
+        "imageUrl" : "https://destinations-images.kaufda.de/image-manager-images/cashbackoffer-mainshelf/Cashback202202Schrundensalbe_1643361709896.jpg"
+      } ]
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1615335848,
+        "title" : "CHICK IT OUT NOW",
+        "validFrom" : "2022-01-07T23:00:00.000+0000",
+        "validUntil" : "2022-02-27T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-07T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-27T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 1,
+        "publisher" : {
+          "id" : 103796995,
+          "name" : "KFC",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 103796995,
+          "name" : "KFC"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/2c3c1db6-1614-4051-9408-d252c6f205f6/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.2976442145815117,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1626070523,
+        "title" : "Grippaler Infekt - Du kannst mich mal!",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T17:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-28T17:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 4,
+        "publisher" : {
+          "id" : 1626047381,
+          "name" : "BoxaGrippal",
+          "type" : "MANUFACTURER"
+        },
+        "retailer" : null,
+        "brochureImage" : "https://content-media.bonial.biz/3beb0501-1fe1-4d24-9498-5535226498cb/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.07515716410453925,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://servedby.flashtalking.com/imp/2/172815;6230075;201;pixel;BonialInternationalDE;Handzettel2022Q1Q21x1BaseHandelBonialInternationalBonialCPCRunofNetworkAdGapID01984463040699459001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&cachebuster=${timestamp}" ]
+      },
+      "content" : {
+        "id" : 1621972956,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-31T06:00:00.000+0000",
+        "validUntil" : "2022-02-05T17:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T00:00:00.000+0000",
+        "publishedUntil" : "2022-02-02T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 33,
+        "publisher" : {
+          "id" : 75,
+          "name" : "ALDI Nord",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 75,
+          "name" : "ALDI Nord"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/78f8f452-51fa-4b1c-bcc5-977cce19f8ff/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.996826947799582,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622787607,
+        "title" : "ALLES ONLINE SHOPPEN",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-06T19:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-06T19:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 20,
+        "publisher" : {
+          "id" : 1066,
+          "name" : "SB Möbel Boss",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1066,
+          "name" : "SB Möbel Boss"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/3f1dd7ac-3cb1-4673-8025-533eda651139/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 10.882064210369235,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1616164507,
+        "title" : "KÜCHENWELT",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-03-06T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T23:00:00.000+0000",
+        "publishedUntil" : "2022-03-06T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 16,
+        "publisher" : {
+          "id" : 34906483,
+          "name" : "porta Möbel",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 34906483,
+          "name" : "porta Möbel"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/53867ac7-2644-49ca-b7a9-a2dcb3c7e56e/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 14.615441696470437,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1616164191,
+        "title" : "Wie lümmelst du? Wir finden das Sofa dazu.",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-06T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-30T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-06T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 4,
+        "publisher" : {
+          "id" : 34906483,
+          "name" : "porta Möbel",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 34906483,
+          "name" : "porta Möbel"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/8c6f6c12-b9c9-4471-ae7f-7dbbae5b30cd/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 14.615441696470437,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_premium",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochurePremium",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622444592,
+        "title" : "Top Angebote!",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-03T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 34,
+        "publisher" : {
+          "id" : 1122,
+          "name" : "NETTO mit dem Scottie",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1122,
+          "name" : "NETTO mit dem Scottie"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/960a89b7-3da5-41d7-a2b4-3685b9c45776/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 1.3129027941164149,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622913174,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T19:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T19:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T19:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 41,
+        "publisher" : {
+          "id" : 1034,
+          "name" : "Netto Marken-Discount",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1034,
+          "name" : "Netto Marken-Discount"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/8b37a4b4-420a-4672-b981-dcc4da1ace7c/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.35246282562830106,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1624448779,
+        "title" : "Jetzt testen und 50% sparen",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-28T21:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 1,
+        "publisher" : {
+          "id" : 1553860986,
+          "name" : "tetesept",
+          "type" : "MANUFACTURER"
+        },
+        "retailer" : null,
+        "brochureImage" : "https://content-media.bonial.biz/12bb6afd-bc73-4dcb-88e3-b5ba24b147a3/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.14144620763770083,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1624448780,
+        "title" : "Jetzt testen und 50% sparen",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-28T21:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 1,
+        "publisher" : {
+          "id" : 1553860986,
+          "name" : "tetesept",
+          "type" : "MANUFACTURER"
+        },
+        "retailer" : null,
+        "brochureImage" : "https://content-media.bonial.biz/f3867b06-6f2d-4cf5-b9d7-a857209580e9/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.14144620763770083,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1623111257,
+        "title" : "Unsere Februar-Angebote",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-09T00:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 4,
+        "publisher" : {
+          "id" : 554953417,
+          "name" : "mea - meine apotheke",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 554953417,
+          "name" : "mea - meine apotheke"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/65b903b7-585e-44f2-9b83-ea7fc5f8b307/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 1.6684034582886318,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1623342470,
+        "title" : "SALE",
+        "validFrom" : "2022-01-29T23:00:00.000+0000",
+        "validUntil" : "2022-02-12T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-12T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 16,
+        "publisher" : {
+          "id" : 258,
+          "name" : "JYSK",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 258,
+          "name" : "JYSK"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/152e7d59-3432-40a0-b03d-25cfc3f197c7/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.38350264973795695,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622354181,
+        "title" : "Beauty Trends",
+        "validFrom" : "2022-01-25T23:00:00.000+0000",
+        "validUntil" : "2022-02-23T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-26T18:00:00.000+0000",
+        "publishedUntil" : "2022-02-23T22:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 1369918583,
+          "name" : "kaufDA Magazin",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1369918583,
+          "name" : "kaufDA Magazin"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/0d14bf97-7760-4e5d-afac-b072b05a7028/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.7978181315313067,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622337120,
+        "title" : "Food Trends",
+        "validFrom" : "2022-01-25T23:00:00.000+0000",
+        "validUntil" : "2022-02-23T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-26T18:00:00.000+0000",
+        "publishedUntil" : "2022-02-23T22:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 1369918583,
+          "name" : "kaufDA Magazin",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1369918583,
+          "name" : "kaufDA Magazin"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/819a47ff-c406-472c-aa6f-461db2f1c179/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.7978181315313067,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620607733,
+        "title" : "Gönn' Dir die Beste Pflege von Nivea!",
+        "validFrom" : "2022-01-23T23:00:00.000+0000",
+        "validUntil" : "2022-02-20T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-23T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-20T21:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 4,
+        "publisher" : {
+          "id" : 1212756155,
+          "name" : "NIVEA",
+          "type" : "MANUFACTURER"
+        },
+        "retailer" : null,
+        "brochureImage" : "https://content-media.bonial.biz/822db275-a5b4-40e2-9e5d-d078ac94a550/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.08684106757503862,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620670703,
+        "title" : "Pflanzentrends",
+        "validFrom" : "2022-01-19T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-20T15:00:00.000+0000",
+        "publishedUntil" : "2022-02-28T22:00:00.000+0000",
+        "type" : "DYNAMIC",
+        "pageCount" : 0,
+        "publisher" : {
+          "id" : 1369918583,
+          "name" : "kaufDA Magazin",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1369918583,
+          "name" : "kaufDA Magazin"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/88887330-1340-468a-9a04-3b155cb97a54/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.7978181315313067,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1613101565,
+        "title" : "Großer Paketdienstleister Vergleich",
+        "validFrom" : "2021-12-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-04T18:00:00.000+0000",
+        "publishedUntil" : "2022-02-28T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 5,
+        "publisher" : {
+          "id" : 341945975,
+          "name" : "Deutsche Post",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 341945975,
+          "name" : "Deutsche Post"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/3c5a19a1-a004-467c-a526-1811d7065539/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.023160931913494213,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1616160171,
+        "title" : "ABWEHRKRÄFTE NATÜRLICH STÄRKEN",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-28T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-28T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 8,
+        "publisher" : {
+          "id" : 1078,
+          "name" : "VITALIA Reformhaus",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1078,
+          "name" : "VITALIA Reformhaus"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/7a11ef63-310f-4250-bf84-959c3b472b3b/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.09210471439747603,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1625675105,
+        "title" : "HIGHLIGHTS",
+        "validFrom" : "2022-01-31T23:00:00.000+0000",
+        "validUntil" : "2022-02-10T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-31T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-10T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 7,
+        "publisher" : {
+          "id" : 1067211093,
+          "name" : "Smyths Toys",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1067211093,
+          "name" : "Smyths Toys"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/ce6be2db-c508-43d1-9af9-26d923694fd8/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.465720625655334,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://track.adform.net/adfserve/?bn=52743108;1x1inv=1;srctype=3;gdpr=;gdpr_consent=;ord=${timestamp}" ]
+      },
+      "content" : {
+        "id" : 1623067353,
+        "title" : "Dein Snackvorrat zum Super Bowl",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T23:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 17,
+        "publisher" : {
+          "id" : 1062,
+          "name" : "REWE",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1062,
+          "name" : "REWE"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/1eebfef5-51ce-4405-8af4-4ee5194156ee/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.4019210662194675,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://track.adform.net/adfserve/?bn=52743108;1x1inv=1;srctype=3;gdpr=;gdpr_consent=;ord=${timestamp}" ]
+      },
+      "content" : {
+        "id" : 1623067522,
+        "title" : "Dein Snackvorrat zum Super Bowl",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-05T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-29T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-05T23:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 29,
+        "publisher" : {
+          "id" : 1062,
+          "name" : "REWE",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1062,
+          "name" : "REWE"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/5216d4fc-8535-4fe1-820d-3cdcdca5a337/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.9395616896755868,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622918686,
+        "title" : "Mein Drogeriemarkt",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-04T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-28T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-04T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 19,
+        "publisher" : {
+          "id" : 1064,
+          "name" : "Rossmann",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1064,
+          "name" : "Rossmann"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/e3d55d27-b2bf-4e1b-b019-6b14dbc33a86/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 0.14144620763770083,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://track.adform.net/adfserve/?bn=52684245;1x1inv=1;srctype=3;gdpr=;gdpr_consent=;ord=${timestamp}" ]
+      },
+      "content" : {
+        "id" : 1621918370,
+        "title" : "Dein Discounter!",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-06T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-28T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-04T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 18,
+        "publisher" : {
+          "id" : 1015,
+          "name" : "Mäc-Geiz",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1015,
+          "name" : "Mäc-Geiz"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/c25037b8-6f93-4667-8828-b40cb3a3677b/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.9758394105048778,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622921552,
+        "title" : "Jetzt richtig cool sparen!",
+        "validFrom" : "2022-01-28T23:00:00.000+0000",
+        "validUntil" : "2022-02-11T19:00:00.000+0000",
+        "publishedFrom" : "2022-01-28T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-11T19:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 48,
+        "publisher" : {
+          "id" : 1052,
+          "name" : "POCO",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1052,
+          "name" : "POCO"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/c66d6740-4482-4eea-9aaf-ac923e362461/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.056729962467441,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://track.adform.net/adfserve/?bn=52550442;1x1inv=1;srctype=3;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_50};ord=${timestamp}" ]
+      },
+      "content" : {
+        "id" : 1620089650,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-30T23:00:00.000+0000",
+        "validUntil" : "2022-02-06T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-28T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-04T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 8,
+        "publisher" : {
+          "id" : 78828752,
+          "name" : "Pfennigpfeiffer",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 78828752,
+          "name" : "Pfennigpfeiffer"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/f2e9ba16-197a-4b2e-a269-8dd9113ecce8/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.323002859577733,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ "https://track.adform.net/adfserve/?bn=52766970;1x1inv=1;srctype=3;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_50};ord=${timestamp}" ]
+      },
+      "content" : {
+        "id" : 1622846075,
+        "title" : "WOCHENWEISE MEGAPREISE!",
+        "validFrom" : "2022-01-28T23:00:00.000+0000",
+        "validUntil" : "2022-02-04T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-28T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-04T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 16,
+        "publisher" : {
+          "id" : 23108525,
+          "name" : "toom Baumarkt",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 23108525,
+          "name" : "toom Baumarkt"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/43a72f41-ffda-4256-9d1b-e2565fe46658/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.851404766400414,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1620128616,
+        "title" : "Einfach bestellen & Schnäppchen sichern",
+        "validFrom" : "2022-01-27T23:00:00.000+0000",
+        "validUntil" : "2022-02-13T19:00:00.000+0000",
+        "publishedFrom" : "2022-01-27T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-13T19:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 12,
+        "publisher" : {
+          "id" : 1052,
+          "name" : "POCO",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1052,
+          "name" : "POCO"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/1c0aa55c-28d9-416e-9d83-3c3524880a5a/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.056729962467441,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622782039,
+        "title" : "Non-Food",
+        "validFrom" : "2022-01-26T23:00:00.000+0000",
+        "validUntil" : "2022-02-02T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-26T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-02T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 16,
+        "publisher" : {
+          "id" : 86285183,
+          "name" : "Metro",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 86285183,
+          "name" : "Metro"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/1a6cb411-c2ab-4036-b53e-8802500d55bc/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.7622730435092797,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622782042,
+        "title" : "Kochen-Spezial",
+        "validFrom" : "2022-01-26T23:00:00.000+0000",
+        "validUntil" : "2022-02-09T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-26T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-09T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 28,
+        "publisher" : {
+          "id" : 86285183,
+          "name" : "Metro",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 86285183,
+          "name" : "Metro"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/20c490f5-79ff-4812-ab3d-a56acd17c0f9/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.7622730435092797,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1622782047,
+        "title" : "Food",
+        "validFrom" : "2022-01-26T23:00:00.000+0000",
+        "validUntil" : "2022-02-02T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-26T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-02T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 20,
+        "publisher" : {
+          "id" : 86285183,
+          "name" : "Metro",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 86285183,
+          "name" : "Metro"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/bb17a0c0-503c-4cde-beea-d9cfd253265b/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 2.7622730435092797,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1613722747,
+        "title" : "Top Angebote",
+        "validFrom" : "2022-01-05T13:00:00.000+0000",
+        "validUntil" : "2022-02-03T22:00:00.000+0000",
+        "publishedFrom" : "2022-01-05T13:00:00.000+0000",
+        "publishedUntil" : "2022-02-03T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 1,
+        "publisher" : {
+          "id" : 224016249,
+          "name" : "aetka",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 224016249,
+          "name" : "aetka"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/a979bc90-997e-4488-ade9-1b6a5c41f228/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 1.7338887036228365,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1613572178,
+        "title" : "Kaminöfen",
+        "validFrom" : "2022-01-04T23:00:00.000+0000",
+        "validUntil" : "2022-03-31T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-05T13:00:00.000+0000",
+        "publishedUntil" : "2022-03-31T21:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 2,
+        "publisher" : {
+          "id" : 184417658,
+          "name" : "HAGOS Partner",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 184417658,
+          "name" : "HAGOS Partner"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/5131e03a-9e0d-4162-8614-78178b936171/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.8672480637288604,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1613572179,
+        "title" : "Pelletöfen",
+        "validFrom" : "2022-01-04T23:00:00.000+0000",
+        "validUntil" : "2022-03-31T21:00:00.000+0000",
+        "publishedFrom" : "2022-01-05T13:00:00.000+0000",
+        "publishedUntil" : "2022-03-31T21:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 2,
+        "publisher" : {
+          "id" : 184417658,
+          "name" : "HAGOS Partner",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 184417658,
+          "name" : "HAGOS Partner"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/d31422af-ac79-4ebd-998c-6d02e81699d6/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.8672480637288604,
+        "hideValidityDate" : false
+      }
+    }, {
+      "placement" : "ad_placement__shelf_sort_managed",
+      "adFormat" : "ad_format__brochure_card_cover",
+      "contentFormatSource" : "destinationsApi",
+      "contentType" : "brochure",
+      "externalTracking" : {
+        "impression" : [ ],
+        "click" : [ ]
+      },
+      "content" : {
+        "id" : 1608270105,
+        "title" : "Küchenwelt",
+        "validFrom" : "2022-01-02T23:00:00.000+0000",
+        "validUntil" : "2022-06-30T18:00:00.000+0000",
+        "publishedFrom" : "2022-01-02T23:00:00.000+0000",
+        "publishedUntil" : "2022-02-27T22:00:00.000+0000",
+        "type" : "BROCHURE",
+        "pageCount" : 48,
+        "publisher" : {
+          "id" : 1052,
+          "name" : "POCO",
+          "type" : "RETAILER"
+        },
+        "retailer" : {
+          "id" : 1052,
+          "name" : "POCO"
+        },
+        "brochureImage" : "https://content-media.bonial.biz/d2978748-4b39-4409-88e4-459a62c8b3dd/preview.jpg",
+        "badges" : [ ],
+        "isEcommerce" : false,
+        "distance" : 3.056729962467441,
+        "hideValidityDate" : false
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://destinationsapi.kaufda.de/v4/shelf?page=0&size=200"
+    }
+  },
+  "page" : {
+    "size" : 200,
+    "totalElements" : 74,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

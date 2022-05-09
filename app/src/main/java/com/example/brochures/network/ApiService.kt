@@ -32,7 +32,7 @@ val retrofit: Retrofit = Retrofit.Builder()
 
 /**
  * Interface for obtaining [ShelfResponse] from
- * [https://test-mobile-configuration-files.s3.eu-central-1.amazonaws.com/stories-test]
+ * [https://test-mobile-configuration-files.s3.eu-central-1.amazonaws.com/stories-test/shelf.json]
  */
 interface BrochuresApiService {
 

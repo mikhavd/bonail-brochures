@@ -1,0 +1,51 @@
+{
+  "_embedded": {
+    "contents": [
+      {
+        "placement": "ad_placement__shelf_sort_managed",
+        "adFormat": "ad_format__brochure_card_cover",
+        "contentFormatSource": "destinationsApi",
+        "contentType": "brochure",
+        "externalTracking": {
+          "impression": [],
+          "click": []
+        },
+        "content": {
+          "id": 1620690331,
+          "title": "Deutschlands bester Preis",
+          "validFrom": "2022-01-23T23:00:00.000+0000",
+          "validUntil": "2022-02-06T22:00:00.000+0000",
+          "publishedFrom": "2022-01-30T00:00:00.000+0000",
+          "publishedUntil": "2022-02-02T00:00:00.000+0000",
+          "type": "BROCHURE",
+          "pageCount": 54,
+          "publisher": {
+            "id": 34906914,
+            "name": "XXXLutz Möbelhäuser",
+            "type": "RETAILER"
+          },
+          "retailer": {
+            "id": 34906914,
+            "name": "XXXLutz Möbelhäuser"
+          },
+          "brochureImage": "https://content-media.bonial.biz/8c0766ca-825a-41e8-a708-c57c775dad61/preview.jpg",
+          "badges": [],
+          "isEcommerce": false,
+          "distance": 111.44686880392277,
+          "hideValidityDate": false
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://destinationsapi.kaufda.de/v4/shelf?page=0&size=200"
+    }
+  },
+  "page": {
+    "size": 200,
+    "totalElements": 74,
+    "totalPages": 1,
+    "number": 0
+  }
+}
