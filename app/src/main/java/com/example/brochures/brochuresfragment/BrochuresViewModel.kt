@@ -5,11 +5,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.brochures.main.SchedulerProvider
 import com.example.brochures.network.BrochuresApiService
 import com.example.brochures.network.robopojo.ContentItem
 import com.example.brochures.network.robopojo.ShelfResponse
-import rx.android.schedulers.AndroidSchedulers
-import rx.schedulers.Schedulers
 
 enum class BrochuresApiStatus { LOADING, ERROR, DONE }
 
@@ -21,7 +20,10 @@ enum class BrochuresApiStatus { LOADING, ERROR, DONE }
  * @param brochuresApiService
  * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
-class BrochuresViewModel(private val brochuresApiService: BrochuresApiService) : ViewModel() {
+class BrochuresViewModel(
+    private val brochuresApiService: BrochuresApiService,
+    private val schedulerProvider: SchedulerProvider,
+) : ViewModel() {
 
     // The internal MutableLiveData that stores the status of the most recent request
     private val _status = MutableLiveData(BrochuresApiStatus.LOADING)
@@ -41,8 +43,8 @@ class BrochuresViewModel(private val brochuresApiService: BrochuresApiService) :
 
     private fun loadBrochures() {
         brochuresApiService.getShelfResponse()
-            .subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
+            .subscribeOn(schedulerProvider.io())
+            .observeOn(schedulerProvider.ui())
             .doOnSubscribe { _status.value = BrochuresApiStatus.LOADING }
             .subscribe(this::parseShelfResponse, this::onFailure)
     }
@@ -76,10 +78,13 @@ class BrochuresViewModel(private val brochuresApiService: BrochuresApiService) :
     }
 
     @Suppress("UNCHECKED_CAST")
-    class BrochuresViewModelFactory(private val brochuresApiService: BrochuresApiService) : ViewModelProvider.Factory {
+    class BrochuresViewModelFactory(
+        private val brochuresApiService: BrochuresApiService,
+        private val schedulerProvider: SchedulerProvider,
+    ) : ViewModelProvider.Factory {
 
         override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-            return BrochuresViewModel(brochuresApiService) as T
+            return BrochuresViewModel(brochuresApiService, schedulerProvider) as T
         }
     }
 }

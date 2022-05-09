@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.brochures.databinding.FragmentOverviewBinding
+import com.example.brochures.main.AppSchedulerProvider
 import com.example.brochures.network.BrochuresApi
 import com.example.brochures.recycler.BrochuresGridAdapter
 
@@ -17,7 +18,10 @@ import com.example.brochures.recycler.BrochuresGridAdapter
 class BrochuresGridFragment : Fragment() {
 
     private val viewModel: BrochuresViewModel by viewModels {
-        BrochuresViewModel.BrochuresViewModelFactory(BrochuresApi.retrofitService)
+        BrochuresViewModel.BrochuresViewModelFactory(
+            BrochuresApi.retrofitService,
+            AppSchedulerProvider()
+        )
     }
 
     /**
