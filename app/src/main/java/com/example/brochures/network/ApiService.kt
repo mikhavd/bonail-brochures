@@ -41,5 +41,5 @@ interface BrochuresApiService {
 }
 
 object BrochuresApi {
-    val retrofitService: BrochuresApiService by lazy { retrofit.create(BrochuresApiService::class.java) }
+    val brochuresApiService: BrochuresApiService by lazy { retrofit.create(BrochuresApiService::class.java) }
 }

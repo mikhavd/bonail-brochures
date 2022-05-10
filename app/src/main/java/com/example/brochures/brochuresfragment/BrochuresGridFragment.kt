@@ -19,7 +19,7 @@ class BrochuresGridFragment : Fragment() {
 
     private val viewModel: BrochuresViewModel by viewModels {
         BrochuresViewModel.BrochuresViewModelFactory(
-            BrochuresApi.retrofitService,
+            BrochuresApi.brochuresApiService,
             AppSchedulerProvider()
         )
     }

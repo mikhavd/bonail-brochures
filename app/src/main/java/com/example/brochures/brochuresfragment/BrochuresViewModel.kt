@@ -9,6 +9,7 @@ import com.example.brochures.main.SchedulerProvider
 import com.example.brochures.network.BrochuresApiService
 import com.example.brochures.network.robopojo.ContentItem
 import com.example.brochures.network.robopojo.ShelfResponse
+import rx.Subscriber
 
 enum class BrochuresApiStatus { LOADING, ERROR, DONE }
 
@@ -45,8 +46,10 @@ class BrochuresViewModel(
         brochuresApiService.getShelfResponse()
             .subscribeOn(schedulerProvider.io())
             .observeOn(schedulerProvider.ui())
-            .doOnSubscribe { _status.value = BrochuresApiStatus.LOADING }
-            .subscribe(this::parseShelfResponse, this::onFailure)
+            .doOnSubscribe { _status.postValue(BrochuresApiStatus.LOADING) }
+            .subscribe(
+                this::parseShelfResponse,
+                this::onFailure)
     }
 
     private fun parseShelfResponse(response: ShelfResponse?) {
@@ -58,18 +61,24 @@ class BrochuresViewModel(
                     this.plusAssign(contentItem)
                 }
             }
-        }.also(::updateLiveDataOnSuccess)
-    }
-
-    private fun updateLiveDataOnSuccess(contentItems: ArrayList<ContentItem>) {
-        _status.value = BrochuresApiStatus.DONE
-        _brochures.value = contentItems
+        }.also { updateLiveDataOnSuccess(it) }
     }
 
     private fun onFailure(throwable: Throwable) {
-        _status.value = BrochuresApiStatus.ERROR
-        _brochures.value = listOf()
-        Log.d("Brochures", "throwable = " + throwable.message)
+        try {
+            _status.postValue(BrochuresApiStatus.ERROR)
+            _brochures.postValue(emptyList())
+            Log.d("Brochures", "throwable = " + throwable.message)
+        } catch (e: Throwable) {
+            Log.d("Brochures", "throwable = " + e.message)
+        }
+    }
+
+    private fun updateLiveDataOnSuccess(contentItems: ArrayList<ContentItem>) {
+        _status.postValue(BrochuresApiStatus.DONE)
+        _brochures.postValue(contentItems)
+        //todo _status.value = BrochuresApiStatus.DONE
+        //todo _brochures.value = contentItems
     }
 
     companion object {
