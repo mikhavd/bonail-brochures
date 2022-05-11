@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="24dp"
         android:orientation="vertical">
 
         <ImageView
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:padding="2dp"
+            android:padding="4dp"
             app:imageUrl="@{contentItem.brochureImage}"
             app:layout_constraintBottom_toTopOf="@id/retailer_name"
             app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         <TextView
             android:id="@+id/retailer_name"
             android:layout_width="match_parent"
-            android:paddingBottom="16dp"
+            android:paddingBottom="24dp"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toStartOf="parent"
             app:layout_constraintStart_toStartOf="parent"
