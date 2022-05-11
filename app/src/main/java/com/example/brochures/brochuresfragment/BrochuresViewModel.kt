@@ -18,7 +18,8 @@ enum class BrochuresApiStatus { LOADING, ERROR, DONE }
  * * a list of brochures, loaded via network ([brochures])
  * * a status of brochures' loading process ([status])
  *
- * @param brochuresApiService
+ * @param brochuresApiService Interface for obtaining [ShelfResponse] with brochures to display
+ * @param schedulerProvider Provider of schedulers for RxJava
  * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 class BrochuresViewModel(
@@ -61,29 +62,29 @@ class BrochuresViewModel(
                     this.plusAssign(contentItem)
                 }
             }
-        }.also { updateLiveDataOnSuccess(it) }
+        }.also(::updateLiveDataOnSuccess)
     }
 
     private fun onFailure(throwable: Throwable) {
         try {
             _status.postValue(BrochuresApiStatus.ERROR)
             _brochures.postValue(emptyList())
-            Log.d("Brochures", "throwable = " + throwable.message)
+            Log.d(TAG, "throwable = " + throwable.message)
         } catch (e: Throwable) {
-            Log.d("Brochures", "throwable = " + e.message)
+            Log.d(TAG, "throwable = " + e.message)
         }
     }
 
     private fun updateLiveDataOnSuccess(contentItems: ArrayList<ContentItem>) {
         _status.postValue(BrochuresApiStatus.DONE)
         _brochures.postValue(contentItems)
-        //todo _status.value = BrochuresApiStatus.DONE
-        //todo _brochures.value = contentItems
     }
 
     companion object {
         private val BROCHURES_CONTENT_TYPE: Set<String> =
             setOf("brochure".lowercase(), "brochurePremium".lowercase())
+
+        private const val TAG = "Brochures"
     }
 
     @Suppress("UNCHECKED_CAST")

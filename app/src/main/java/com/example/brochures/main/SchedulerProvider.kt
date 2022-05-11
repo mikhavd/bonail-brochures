@@ -3,9 +3,11 @@ package com.example.brochures.main
 import rx.Scheduler
 
 /**
- * Provider for schedulers RxJava
+ * Provider of schedulers for RxJava
+ * Allow to rewrite scheduler for testing purposes
+ * //todo possibly get rid of using this Provider
  *
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 interface SchedulerProvider {
     fun ui(): Scheduler

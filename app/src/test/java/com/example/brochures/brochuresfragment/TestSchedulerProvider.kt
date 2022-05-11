@@ -5,8 +5,9 @@ import rx.Scheduler
 import rx.schedulers.Schedulers
 
 /**
- * TODO
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * Provider of schedulers for RxJava in tests
+ *
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 class TestSchedulerProvider : SchedulerProvider {
     override fun ui(): Scheduler = Schedulers.trampoline()

@@ -8,7 +8,7 @@ import rx.schedulers.Schedulers
 /**
  * Default RxJava schedulers
  *
- * @author Mikhail Avdeev (mvavdeev@sberbank.ru)
+ * @author Mikhail Avdeev (avdeev.m92@gmail.com)
  */
 class AppSchedulerProvider : SchedulerProvider {
     override fun ui(): Scheduler {
